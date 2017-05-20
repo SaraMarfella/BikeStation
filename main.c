@@ -18,8 +18,11 @@
 
 // define a type of date
 typedef struct{
-    int hours;
-    int minutes;
+    int day;
+    int month;
+    int year;
+    int hour;
+    int minute;
 }Date;
 
 // define a type of bike id
@@ -29,27 +32,28 @@ typedef struct{
 }IdBike;
 
 // structure of Travelers
-struct Traveler{
-   long int id_traveler;
+typedef struct Traveler{
+   long int id;
     int duration_trip;
     Date start_trip;
     int id_start_station;
     Date end_trip;
     int id_final_station;
     IdBike the_bike;
-    char user[MAX_SIZE]; // the user can be casual or members
+    char type; // the user can be casual or members
     int year_birthday; // only in case of members
-    char gender[MAX_SIZE]; // female or man only in case of members
-};
+    char gender; // female or man only in case of members
+    struct Traveler * next
+}Travelers;
 
 //define a type for short name of station ( one characters and 5 numbers)
 typedef struct{
-    char fist_part;
-    int second_part[5];
+    char first_part;
+    int second_part;
 }ShortName;
 
 // structure of station
-struct Station{
+typedef struct Station{
     int id_station;
     ShortName name_station;
     char full_name_station[MAX_SIZE];
@@ -57,12 +61,11 @@ struct Station{
     long int latitude;
     long int longitude;
     char state[MAX_SIZE]; // existing or removed
-};
+    struct Station * next
+}Stations;
 
-
-
-struct Traveler *oneTraveler;
-struct Station *oneStation;
+//Traveler *oneTraveler;
+//Station *oneStation;
 
 
 /*function main
@@ -112,12 +115,12 @@ SDL_Event event;
 void readFiles(char *argv[]){
     char line[1024];
     char *token;
-    const char space = " ";
+    const char separator = ",";
     int i=0;
 
     //Allocation of memory
-    struct Traveler *oneTraveler= (struct Traveler*)malloc(sizeof(struct Traveler));
-    struct Station *oneStation= (struct Station*)malloc(sizeof(struct Station));
+    //struct Traveler *oneTraveler= (struct Traveler*)malloc(sizeof(struct Traveler));
+    //struct Station *oneStation= (struct Station*)malloc(sizeof(struct Station));
 
     //first file
     FILE *fileOne = fopen( argv[2], "r" );
@@ -126,10 +129,10 @@ void readFiles(char *argv[]){
     }
     else {
         while(fgets(line, sizeof line, fileOne) != NULL){
-            token = strtok(line, space);
+            token = strtok(line, separator);
             if(i == 0){
                printf("%s\t",token);
-                token = strtok(NULL,space);
+                token = strtok(NULL,separator);
             } else {
                 printf("%d\n",atoi(token));
             }
@@ -144,10 +147,10 @@ void readFiles(char *argv[]){
     }
     else {
         while(fgets(line, sizeof line, fileTwo) != NULL){
-            token = strtok(line, space);
+            token = strtok(line, separator);
             if(i == 0){
                printf("%s\t",token);
-                token = strtok(NULL,space);
+                token = strtok(NULL,separator);
             } else {
                 printf("%d\n",atoi(token));
             }
