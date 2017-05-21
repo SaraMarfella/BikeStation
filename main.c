@@ -1,50 +1,46 @@
 /* GENERAL INFORMATION
-/ Project created by Sara Marfella
-/ IST188316
-*/
+ / Project created by Sara Marfella
+ / IST188316
+ */
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <SDL2/SDL.h>
-#include <SDL2/SDL_ttf.h>
-#include <SDL2/SDL_image.h>
+#include <time.h>
+#include <stdbool.h>
+#include <string.h>
 
 // CONSTANT
 #define MAX_SIZE 100 // max size of a string
-
-// DECLARATION OF FUNCTIONS
+#define REGISTERED 1 // the registered member
+#define CASUAL 0 // the casual user
+#define MALE 1 // the male gender
+#define FEMALE 0 // the female gender
 
 //ALL THE STRUCT
 
 // define a type of date
 typedef struct{
-    int day;
     int month;
+    int day;
     int year;
     int hour;
     int minute;
 }Date;
 
-// define a type of bike id
-typedef struct{
-    char first_part;
-    int second_part;
-}IdBike;
-
-// structure of Travelers
-typedef struct Traveler{
-   long int id;
-    int duration_trip;
-    Date start_trip;
+// Linked List of Travelers
+typedef struct Trip{
+    long int id;
+    int duration; // in seconds
+    Date start;
     int id_start_station;
-    Date end_trip;
+    Date end;
     int id_final_station;
-    IdBike the_bike;
-    char type; // the user can be casual or members
+    char bike[7];
+    int type; // the user can be casual or members
     int year_birthday; // only in case of members
-    char gender; // female or man only in case of members
-    struct Traveler * next
-}Travelers;
+    int gender; // female or man only in case of members
+    struct Trip *next;
+}Trip;
 
 //define a type for short name of station ( one characters and 5 numbers)
 typedef struct{
@@ -52,151 +48,261 @@ typedef struct{
     int second_part;
 }ShortName;
 
-// structure of station
+// Linked List of Stations
 typedef struct Station{
-    int id_station;
-    ShortName name_station;
-    char full_name_station[MAX_SIZE];
+    int id;
+    ShortName name;
+    char full_name[MAX_SIZE];
     char municipal[MAX_SIZE];
     long int latitude;
     long int longitude;
-    char state[MAX_SIZE]; // existing or removed
-    struct Station * next
-}Stations;
+    bool status; // existing or removed
+    struct Station *next;
+}Station;
 
-//Traveler *oneTraveler;
-//Station *oneStation;
+// DECLARATION OF FUNCTIONS
+void readTripsData();
+void mainMenu();
+void selectData();
+void printTripsList(Trip*, int);
+Trip* selectTripsByTime(Trip*, int, int);
 
+struct Trip * tripsHead = NULL;
+struct Station * stationsHead = NULL;
 
 /*function main
-@param mode(-g or -t) and file (file travelers and file stations)
-*/
+ @param mode(-g or -t) and file (file travelers and file stations)
+ */
 int main (int argc, char *argv[]){
 
-SDL_Event event;
+    //bool shouldQuit = false;
 
     // check for correct input
     /*if (argc != 3) {
-        printf("Error - required arguments missing");
-    }
+     printf("Error - required arguments missing");
+     }
      if ((!argv[1] == '-t')||(!argv[1] == '-g')) {
-        printf("Error - only text mode or graphic mode is available, please start with -t or -g");
-    //call of function that read the files
-    readFiles();
+     printf("Error - only text mode or graphic mode is available, please start with -t or -g");
+     //call of function that read the files
+     readFiles();
      }*/
 
-    Menu();
+    readTripsData();
+    mainMenu(tripsHead);
 
-    while(event.type == SDL_KEYDOWN){
-        switch ( event.key.keysym.sym ){
+    //struct Trip * filteredTrips = selectTripsByTime(tripsHead, 8, 9);
 
-            case SDLK_1:
-                Menu_1();
-                break;
-
-            case SDLK_2:
-                break;
-
-            case SDLK_3:
-                break;
-
-            case SDLK_4:
-                break;
-
-            case SDLK_5:
-                break;
-        }
-    }
-
+    //printTripsList(filteredTrips, 0);
     return 0;
 }
 
-// function that open and read the file
-void readFiles(char *argv[]){
+// Functions that open and read the files into the linked lists
+
+//void readFiles(char *argv[]){
+//  readTripsData(argv[qualcosa]);
+//}
+
+void readTripsData(/*char *filename*/){
     char line[1024];
     char *token;
-    const char separator = ",";
-    int i=0;
+    char *separators = ", /:";
+    int lineNumber = 0;
+    int fieldCounter = 0;
 
-    //Allocation of memory
-    //struct Traveler *oneTraveler= (struct Traveler*)malloc(sizeof(struct Traveler));
-    //struct Station *oneStation= (struct Station*)malloc(sizeof(struct Station));
-
-    //first file
-    FILE *fileOne = fopen( argv[2], "r" );
-    if ( fileOne == 0 ){
-        printf( "Error - Could not open file\n" );
-    }
+    //open file for reading
+    FILE *fileOne = fopen( "hubway_trips_v2.csv", "r" );
+    if ( fileOne == 0 ) printf( "Error - Could not open file\n" );
     else {
-        while(fgets(line, sizeof line, fileOne) != NULL){
-            token = strtok(line, separator);
-            if(i == 0){
-               printf("%s\t",token);
-                token = strtok(NULL,separator);
-            } else {
-                printf("%d\n",atoi(token));
+        while(fgets(line, sizeof line, fileOne) != NULL){   // read each line
+
+            lineNumber++;                                   // keep line count for convenience
+            token = strtok(line, separators);               // Split the line into parts
+            fieldCounter = 0;                               // make sure field counter is 0
+            Trip* trip = (Trip*)malloc(sizeof(Trip));       // Allocation of memory
+
+            while (token != NULL) {                         // cycle through fields
+                // printf("Field: %d\n", fieldCounter);
+                switch (fieldCounter) {
+                    case 0:  trip->id = atoi(token);                break;
+                    case 1:  trip->duration = atoi(token);          break;
+                    case 2:  trip->start.month = atoi(token);       break;
+                    case 3:  trip->start.day = atoi(token);         break;
+                    case 4:  trip->start.year = atoi(token);        break;
+                    case 5:  trip->start.hour = atoi(token);        break;
+                    case 6:  trip->start.minute = atoi(token);      break;
+                    case 7:  /*"seconds field" to be ignored*/      break;
+                    case 8:  trip->id_start_station = atoi(token);  break;
+                    case 9:  trip->end.month = atoi(token);         break;
+                    case 10: trip->end.day = atoi(token);           break;
+                    case 11: trip->end.year = atoi(token);          break;
+                    case 12: trip->end.hour = atoi(token);          break;
+                    case 13: trip->end.minute = atoi(token);        break;
+                    case 14: /*"seconds field" to be ignored*/      break;
+                    case 15: trip->id_final_station = atoi(token);  break;
+                    case 16:
+                        // handle missing bike id on line 609
+                        if (strlen(token)-1 > 7) {
+                            if (strcmp(token, "Registered") !=0) {
+                                trip->type = REGISTERED;
+                            } else {
+                                trip->type = CASUAL;
+                            }
+                            // add one to field counter so we skip this field
+                            fieldCounter++;
+                            break;
+                        }
+                        strcpy(trip->bike, token);
+                        break;
+                    case 17:
+                        if (strcmp(token, "Registered") !=0) {
+                            trip->type = REGISTERED;
+                        } else {
+                            trip->type = CASUAL;
+                        }
+                        break;
+                    case 18:
+                        if (trip->type == REGISTERED) {
+                            trip->year_birthday = atoi(token);
+                        }
+                        break;
+                    case 19:
+                        if (trip->type == REGISTERED) {
+                            if (strcmp(token, "Male") !=0) {
+                                trip->gender = MALE;
+                            } else {
+                                trip->gender = FEMALE;
+                            }
+                        }
+                        fieldCounter = -1; // Reset fields counter for new line
+                        break;
+                    default: break;
+                }
+                // printf ("%s\n",token);
+                fieldCounter++;
+                token = strtok (NULL, separators);
             }
+            // add new trip to linked list
+            trip->next = tripsHead;
+            tripsHead = trip;
         }
         fclose(fileOne);
     }
+}
 
-    //second file
-    FILE *fileTwo = fopen( argv[3], "r" );
-     if ( fileTwo == 0 ){
-        printf( "Error - Could not open file\n" );
-    }
-    else {
-        while(fgets(line, sizeof line, fileTwo) != NULL){
-            token = strtok(line, separator);
-            if(i == 0){
-               printf("%s\t",token);
-                token = strtok(NULL,separator);
-            } else {
-                printf("%d\n",atoi(token));
-            }
+void printTripsList(Trip *head, int limit) {
+
+    struct Trip *aux = head;
+    int lineCounter = 0;
+    while (aux != NULL) {
+        printf("* * * * * * * * %d\n", lineCounter);
+        printf("id: %ld\n", aux->id);
+        printf("Duration: %d\n", aux->duration);
+        printf("Start Date: %d/%d/%d %d:%d\n", aux->start.month, aux->start.day, aux->start.year, aux->start.hour, aux->start.minute);
+        printf("Start Station ID: %d\n", aux->id_start_station);
+        printf("End Date: %d/%d/%d %d:%d\n", aux->end.month, aux->end.day, aux->end.year, aux->end.hour, aux->end.minute);
+        printf("Final Station ID: %d\n", aux->id_final_station);
+        printf("Bike ID: %s\n", aux->bike);
+        printf("User Type: %d\n", aux->type);
+        printf("Year of Birth: %d\n", aux->year_birthday);
+        printf("Gender: %d\n", aux->gender);
+        aux = aux->next;
+        lineCounter++;
+        if ((limit != 0) && (lineCounter >= limit)) {
+            return;
         }
-        fclose(fileTwo);
     }
-
 }
 
-void Menu(){
-    printf("\nPress 1: Select the data");
-    printf("\nPress 2: List of travelers");
-    printf("\nPress 3: List of stations");
-    printf("\nPress 4: List of routes");
-    printf("\nPress 5: List of statistics");
+
+/* Command Line Interface */
+void mainMenu(Trip * sourceList){
+    int command;
+    printf("Press 1: Select the data\n");
+    printf("Press 2: Print List of trips\n");
+    printf("Press 3: Print List of stations\n");
+    printf("Press 4: Print List of routes\n");
+    printf("Press 5: Print List of statistics\n");
+    printf("Any other key: Quit\n");
+    scanf("%d", &command);
+    switch (command) {
+        case 1: selectData(sourceList); break;
+        case 2:
+            printf("How many trips do you want to print? (0..32000, enter 0 for all)\n");
+            scanf("%d", &command);
+            printTripsList(sourceList, command);
+            mainMenu(sourceList);
+            break;
+        case 3: break;
+        case 4: break;
+        case 5: break;
+        default: return;
+    }
 }
 
-void Menu_1(fileOne){
+Trip* selectTripsByTime(Trip * sourceListHead, int hour_start, int hour_end) {
+    struct Trip *aux = sourceListHead;
+    struct Trip *filteredTripsHead = NULL;
+    while (aux != NULL) {
 
-SDL_Event event;
+        // Only save the item to the list if the start hour and end hour are within the parameters
+        // If the end hour is the same as the end parameter, we only want trips that ended in
+        // the first minute of the hour, otherwise we consider the trips outside the desired set
+        // so if user enters trips from 8 to 9, we take all trips between 8:00 and 9:00
 
-    printf("Select the mode of your search");
-    printf("\nPress 1: Period of time");
-    printf("\nPress 2: Day of week");
-    printf("\nPress 3: Duration");
+        if ( ( (aux->start.hour >= hour_start) && (aux->start.hour < hour_end) &&
+               (aux->end.hour >= hour_start) && (aux->end.hour < hour_end) ) ||
+            ( (aux->start.hour >= hour_start) && (aux->end.hour == hour_end) && (aux->end.minute == 0) ) ) {
 
-    while(event.type == SDL_KEYDOWN){
-        switch ( event.key.keysym.sym ){
+            Trip* trip = (Trip*)malloc(sizeof(Trip));
 
-            case SDLK_1:
-                printf("insert hour's start of trip:");
-                scanf("%d", hour_start); // devo cercare il dato all'interno del file
-                printf("insert hour's end of trip:");
-                scanf("%d", hour_end); // e poi stampare i viaggi se ce ne sono
-                break;
+            trip->id = aux->id;
+            strcpy(trip->bike, aux->bike);
+            trip->duration = aux->duration;
+            trip->end = aux->end;
+            trip->start = aux->start;
+            trip->gender = aux->gender;
+            trip->id_final_station = aux->id_final_station;
+            trip->id_start_station = aux->id_final_station;
+            trip->type = aux->type;
+            trip->year_birthday = aux->year_birthday;
 
-            case SDLK_2:
-                printf("insert the day of the week:");
-                scanf("%d", day); // questo però non c'è nel file
-                break;
-
-            case SDLK_3:
-                printf("insert the max duration of the trip");
-                scanf("%d", duration); //duration_trip in the file
-                break;
-
+            // add new trip to filtered linked list
+            trip->next = filteredTripsHead;
+            filteredTripsHead = trip;
+        }
+        aux = aux->next;
+    }
+    return filteredTripsHead;
+}
 
 
+void selectData(Trip * filteredTrips){
+
+    int hour_start, hour_end, day, duration, command;
+
+    printf("Select the mode of your search\n");
+    printf("Press 1: Period of time (hour start, hour end)\n");
+    printf("Press 2: Day of week\n");
+    printf("Press 3: Max duration of trip (in seconds)\n");
+    printf("Press 4: Return to Main Menu\n");
+    printf("Any other key: Quit\n");
+    scanf("%d", &command);
+    switch (command) {
+        case 1:
+            printf("Insert start time of trip (hour between 0..24):\n");
+            scanf("%d", &hour_start); // devo cercare il dato all'interno del file
+            printf("Insert end time of trip (hour between 0..24):\n");
+            scanf("%d", &hour_end); // e poi stampare i viaggi se ce ne sono
+            filteredTrips = selectTripsByTime(tripsHead, hour_start, hour_end);
+            printf("Done.\n");
+            mainMenu(filteredTrips);
+            break;
+        case 2: break;
+        case 3: break;
+        case 4:
+            if (filteredTrips != NULL) mainMenu(filteredTrips);
+            else mainMenu(tripsHead);
+            break;
+        default: return;
+    }
 }
