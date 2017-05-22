@@ -1,6 +1,6 @@
 /* GENERAL INFORMATION
- / Project created by Sara Marfella
- / IST188316
+ / Project created by Sara Marfella IST188316
+ / on May 2017
  */
 
 #include <stdio.h>
@@ -15,6 +15,8 @@
 #define CASUAL 0 // the casual user
 #define MALE 1 // the male gender
 #define FEMALE 0 // the female gender
+#define EXISTING 1
+#define REMOVED 0
 
 //ALL THE STRUCT
 
@@ -27,7 +29,7 @@ typedef struct{
     int minute;
 }Date;
 
-// Linked List of Travelers
+// Linked List of Trips
 typedef struct Trip{
     long int id;
     int duration; // in seconds
@@ -42,30 +44,28 @@ typedef struct Trip{
     struct Trip *next;
 }Trip;
 
-//define a type for short name of station ( one characters and 5 numbers)
-typedef struct{
-    char first_part;
-    int second_part;
-}ShortName;
-
 // Linked List of Stations
 typedef struct Station{
     int id;
-    ShortName name;
+    char name[6];
     char full_name[MAX_SIZE];
     char municipal[MAX_SIZE];
     long int latitude;
     long int longitude;
-    bool status; // existing or removed
+    int status; // existing or removed
     struct Station *next;
 }Station;
 
 // DECLARATION OF FUNCTIONS
 void readTripsData();
-void mainMenu();
+void readStationData();
+void mainMenu(Trip*);
 void selectData();
 void printTripsList(Trip*, int);
 Trip* selectTripsByTime(Trip*, int, int);
+Trip* selectTripsByDuration(Trip*, int);
+Trip* selectTripsByDay(Trip*, int);
+Trip* selectTripsByIdStation(Trip*, int);
 
 struct Trip * tripsHead = NULL;
 struct Station * stationsHead = NULL;
@@ -86,8 +86,8 @@ int main (int argc, char *argv[]){
      //call of function that read the files
      readFiles();
      }*/
-
     readTripsData();
+    readStationData();
     mainMenu(tripsHead);
 
     //struct Trip * filteredTrips = selectTripsByTime(tripsHead, 8, 9);
@@ -189,6 +189,47 @@ void readTripsData(/*char *filename*/){
     }
 }
 
+void readStationData(/*char *filename*/){
+    char line[1024];
+    char *token;
+    char *separators = ",";
+    int lineNumber = 0;
+    int fieldCounter = 0;
+
+    //open file for reading
+    FILE *fileTwo = fopen( "hubway_stations.csv", "r" );
+    if ( fileTwo == 0 ) printf( "Error - Could not open file\n" );
+    else {
+        while(fgets(line, sizeof line, fileTwo) != NULL){
+            lineNumber++;                                           // keep line count for convenience
+            token = strtok(line, separators);                       // Split the line into parts
+            fieldCounter = 0;                                       // make sure field counter is 0
+            Station* station = (Station*)malloc(sizeof(Station));   // Allocation of memory
+
+                while (token != NULL) {                         // cycle through fields
+                // printf("Field: %d\n", fieldCounter);
+                switch (fieldCounter) {
+                    case 0:  station->id = atoi(token);             break;
+                    case 1:  strcpy(station->name, token);          break;
+                    case 2:  strcpy(station->full_name, token);     break;
+                    case 3:  strcpy(station->municipal, token);     break;
+                    case 4:  station->latitude = atoi(token);       break;
+                    case 5:  station->longitude = atoi(token);      break;
+                    case 6:  station->status = atoi(token);         break;
+                    default: break;
+                }
+                // printf ("%s\n",token);
+                fieldCounter++;
+                token = strtok (NULL, separators);
+                 }
+            // add new trip to linked list
+            station->next = stationsHead;
+            stationsHead = station;
+        }
+        fclose(fileTwo);
+    }
+}
+
 void printTripsList(Trip *head, int limit) {
 
     struct Trip *aux = head;
@@ -213,6 +254,25 @@ void printTripsList(Trip *head, int limit) {
     }
 }
 
+void printStationsList(Station *head, int limit) {
+    struct Station *aux = head;
+    int lineCounter = 0;
+    while (aux != NULL) {
+        printf("* * * * * * * * %d\n", lineCounter);
+        printf("id: %ld\n", aux->id);
+        printf("name : %s\n", aux->name);
+        printf("full name: %s\n", aux->full_name);
+        printf("municipal: %s\n", aux->municipal);
+        printf("latitude: %ld\n", aux->latitude);
+        printf("longitude: %ld\n", aux->longitude);
+        printf("id: %d\n", aux->status);
+        aux = aux->next;
+        lineCounter++;
+        if ((limit != 0) && (lineCounter >= limit)) {
+            return;
+        }
+    }
+}
 
 /* Command Line Interface */
 void mainMenu(Trip * sourceList){
@@ -232,9 +292,70 @@ void mainMenu(Trip * sourceList){
             printTripsList(sourceList, command);
             mainMenu(sourceList);
             break;
-        case 3: break;
-        case 4: break;
+        case 3:
+            printf("How many stations do you want to print? (0..32000, enter 0 for all)\n");
+            scanf("%d", &command);
+            printStationsList(stationsHead, command);
+            mainMenu(stationsHead);
+            break;
+        case 4:
+            selectStation(sourceList);
+            printf("how many station do yo want to print?\n");
+            scanf("%d", &command);
+            printTripsList(sourceList, command);
+            mainMenu(sourceList);
+            break;
         case 5: break;
+        default: return;
+    }
+}
+
+void selectStation(Trip * filteredTrips, int id){
+    printf("Insert the id of the station:\n");
+    scanf("%d", &id);
+    filteredTrips = selectTripsByIdStation(tripsHead, id);
+    mainMenu(filteredTrips);
+}
+
+void selectData(Trip * filteredTrips){
+
+    int hour_start, hour_end, day, duration, command;
+
+    printf("Select the mode of your search\n");
+    printf("Press 1: Period of time (hour start, hour end)\n");
+    printf("Press 2: Day of week\n");
+    printf("Press 3: Max duration of trip (in seconds)\n");
+    printf("Press 4: Return to Main Menu\n");
+    printf("Any other key: Quit\n");
+    scanf("%d", &command);
+    switch (command) {
+        case 1:
+            printf("Insert start time of trip (hour between 0..24):\n");
+            scanf("%d", &hour_start);
+            printf("Insert end time of trip (hour between 0..24):\n");
+            scanf("%d", &hour_end);
+            filteredTrips = selectTripsByTime(tripsHead, hour_start, hour_end);
+            printf("Done.\n");
+            mainMenu(filteredTrips);
+            break;
+        case 2:
+            printf("Insert the day of trip ( 1 on Monday... 7 on Sunday:\n");
+            scanf("%d", &day);
+            filteredTrips = selectTripByDay(tripsHead, day);
+            printf("Done.\n");
+            mainMenu(filteredTrips);
+            break;
+        case 3:
+            printf("Insert the max duration of trip:\n");
+            scanf("%d", &duration);
+            filteredTrips = selectTripsByDuration(tripsHead, duration);
+            printf("Done.\n");
+            mainMenu(filteredTrips);
+            break;
+        case 4:
+            if (filteredTrips != NULL) mainMenu(filteredTrips);
+            else mainMenu(tripsHead);
+            break;
         default: return;
     }
 }
@@ -275,34 +396,78 @@ Trip* selectTripsByTime(Trip * sourceListHead, int hour_start, int hour_end) {
     return filteredTripsHead;
 }
 
+Trip* selectTripsByDuration(Trip * sourceListHead, int duration) {
+    struct Trip *aux = sourceListHead;
+    struct Trip *filteredTripsHead = NULL;
+    while (aux != NULL) {
+        if (aux->duration <= duration) {
 
-void selectData(Trip * filteredTrips){
+            Trip* trip = (Trip*)malloc(sizeof(Trip));
 
-    int hour_start, hour_end, day, duration, command;
+            trip->id = aux->id;
+            strcpy(trip->bike, aux->bike);
+            trip->duration = aux->duration;
+            trip->end = aux->end;
+            trip->start = aux->start;
+            trip->gender = aux->gender;
+            trip->id_final_station = aux->id_final_station;
+            trip->id_start_station = aux->id_final_station;
+            trip->type = aux->type;
+            trip->year_birthday = aux->year_birthday;
 
-    printf("Select the mode of your search\n");
-    printf("Press 1: Period of time (hour start, hour end)\n");
-    printf("Press 2: Day of week\n");
-    printf("Press 3: Max duration of trip (in seconds)\n");
-    printf("Press 4: Return to Main Menu\n");
-    printf("Any other key: Quit\n");
-    scanf("%d", &command);
-    switch (command) {
-        case 1:
-            printf("Insert start time of trip (hour between 0..24):\n");
-            scanf("%d", &hour_start); // devo cercare il dato all'interno del file
-            printf("Insert end time of trip (hour between 0..24):\n");
-            scanf("%d", &hour_end); // e poi stampare i viaggi se ce ne sono
-            filteredTrips = selectTripsByTime(tripsHead, hour_start, hour_end);
-            printf("Done.\n");
-            mainMenu(filteredTrips);
-            break;
-        case 2: break;
-        case 3: break;
-        case 4:
-            if (filteredTrips != NULL) mainMenu(filteredTrips);
-            else mainMenu(tripsHead);
-            break;
-        default: return;
+            trip->next = filteredTripsHead;
+            filteredTripsHead = trip;
+        }
+        aux = aux->next;
     }
+    return filteredTripsHead;
+}
+
+Trip* selectTripByDay(Trip * sourceListHead, int day){
+
+    struct Trip *aux = sourceListHead;
+    struct Trip *filteredTripsHead = NULL;
+    while (aux != NULL) {
+        if (aux->start.day == day) {
+
+        Trip* trip = (Trip*)malloc(sizeof(Trip));
+        int k = aux->start.day;
+        int m = aux->start.month;
+        int C = aux->start.year/100;
+        //printf(" stampa le prime due cifre\n: %d", C);
+        int D = aux->start.year%100;
+        //printf(" stampa le ultime due cifre\n: %d", D);
+
+        day = (k + (((13*m)-1)/5) + D + (D/4) + (C/4) - (2*C));
+        printf("giorno:%d", day);
+
+        trip->start.day = aux->start.day;
+        trip->start.month = aux->start.month;
+        trip->start.year = aux->start.year;
+
+        trip->next = filteredTripsHead;
+        filteredTripsHead = trip;
+        }
+        aux = aux->next;
+    }
+    return filteredTripsHead;
+}
+
+Trip* selectTripsByIdStation(Trip * sourceListHead, int id) {
+    struct Trip *aux = sourceListHead;
+    struct Trip *filteredTripsHead = NULL;
+    while (aux != NULL) {
+        if ((aux->id_final_station == id)||(aux->id_start_station == id)) {
+
+            Trip* trip = (Trip*)malloc(sizeof(Trip));
+
+            trip->id_final_station = aux->id_final_station;
+            trip->id_start_station = aux->id_final_station;
+
+            trip->next = filteredTripsHead;
+            filteredTripsHead = trip;
+        }
+        aux = aux->next;
+    }
+    return filteredTripsHead;
 }

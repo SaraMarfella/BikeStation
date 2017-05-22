@@ -4,18 +4,18 @@
 	<ActiveTarget name="Debug" />
 	<File name="main.c" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="3447" topLine="154" />
+			<Cursor1 position="15069" topLine="350" />
 		</Cursor>
 		<Folding>
-			<Collapse line="276" />
+			<Collapse line="123" />
 		</Folding>
 	</File>
-	<File name="hubway_trips_v2.csv" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="hubway_trips_v2.csv" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="2330" topLine="16263" />
+			<Cursor1 position="2330" topLine="16257" />
 		</Cursor>
 	</File>
-	<File name="hubway_stations.csv" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="hubway_stations.csv" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="46" topLine="0" />
 		</Cursor>
