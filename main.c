@@ -14,7 +14,7 @@
 #define REGISTERED 1 // the registered member
 #define CASUAL 0 // the casual user
 #define MALE 1 // the male gender
-#define FEMALE 0 // the female gender
+#define FEMALE 2 // the female gender
 #define EXISTING 1
 #define REMOVED 0
 
@@ -69,7 +69,7 @@ void mainMenu(Trip*, Station*);
 // command line interface
 void selectData();
 void printTripsList(Trip*, int);
-void printStationsList(Station*, int);
+void printStationsList(Station*, int, int);
 
 // data management
 Trip* selectTripsByTime(Trip*, int, int);
@@ -128,7 +128,7 @@ int main (int argc, char *argv[]){
 void readTripsData(/*char *filename*/){
     char line[1024];
     char *token;
-    char *separators = ", /:";
+    char *separators = ", /:\n";
     int lineNumber = 0;
     int fieldCounter = 0;
     
@@ -144,7 +144,7 @@ void readTripsData(/*char *filename*/){
             Trip* trip = (Trip*)malloc(sizeof(Trip));       // Allocation of memory
             
             while (token != NULL) {                         // cycle through fields
-                // printf("Field: %d\n", fieldCounter);
+                //printf("%d %s\n", fieldCounter, token);
                 switch (fieldCounter) {
                     case 0:  trip->id = atoi(token);                break;
                     case 1:  trip->duration = atoi(token);          break;
@@ -164,7 +164,7 @@ void readTripsData(/*char *filename*/){
                     case 15: trip->id_final_station = atoi(token);  break;
                     case 16:
                         // handle missing bike id on line 609
-                        if (strlen(token)-1 > 7) {
+                        if (strlen(token)-1 > 8) {
                             if (strcmp(token, "Registered") !=0) {
                                 trip->type = REGISTERED;
                             } else {
@@ -177,26 +177,24 @@ void readTripsData(/*char *filename*/){
                         strcpy(trip->bike, token);
                         break;
                     case 17:
-                        if (strcmp(token, "Registered") !=0) {
+                        if (strcmp(token, "Registered") == 0) {
                             trip->type = REGISTERED;
                         } else {
                             trip->type = CASUAL;
                         }
                         break;
                     case 18:
-                        if (trip->type == REGISTERED) {
-                            trip->year_birthday = atoi(token);
-                        }
+                        trip->year_birthday = atoi(token);
                         break;
                     case 19:
-                        if (trip->type == REGISTERED) {
-                            if (strcmp(token, "Male") !=0) {
-                                trip->gender = MALE;
-                            } else {
-                                trip->gender = FEMALE;
-                            }
+                        if (token[0] == 'M') {
+                            trip->gender = MALE;
+                        } else if (token[0] == 'F') {
+                            trip->gender = FEMALE;
+                        } else {
+                            trip->gender = 0;
                         }
-                        fieldCounter = -1; // Reset fields counter for new line
+                        //fieldCounter = -1; // Reset fields counter for new line
                         break;
                     default: break;
                 }
@@ -394,15 +392,13 @@ void mainMenu(Trip * tripsList, Station * stationsList){
             //printf("How many stations do you want to print? (0..32000, enter 0 for all)\n");
             //scanf("%d", &command);
             countBikes(tripsList, stationsList);
-            printStationsList(stationsList, 0);
+            printf("Show stations with no travels for selected data? (1 - yes / 2 - no)\n");
+            scanf("%d", &command);
+            printStationsList(stationsList, 0, command);
             mainMenu(tripsList, stationsList);
             break;
         case 4:
             selectStation(tripsList, 0);
-            printf("how many station do yo want to print?\n");
-            scanf("%d", &command);
-            printTripsList(tripsList, command);
-            mainMenu(tripsList, stationsList);
             break;
         case 5: break;
         default: return;
@@ -410,9 +406,13 @@ void mainMenu(Trip * tripsList, Station * stationsList){
 }
 
 void selectStation(Trip * filteredTrips, int id){
+    int command;
     printf("Insert the id of the station:\n");
     scanf("%d", &id);
     filteredTrips = selectTripsByIdStation(tripsHead, id);
+    printf("How many trips do yo want to print? (0 for all)\n");
+    scanf("%d", &command);
+    printTripsList(filteredTrips, command);
     mainMenu(filteredTrips, stationsHead);
 }
 
@@ -424,6 +424,7 @@ void selectData(Trip * filteredTrips){
     printf("  [ 1 ]   Period of time (hour start, hour end)\n\n");
     printf("  [ 2 ]   Day of week\n\n");
     printf("  [ 3 ]   Max duration of trip (in seconds)\n\n");
+    printf("  [ 4 ]   New Search (reset list)\n\n");
     printf("Any other key: Return to Main Menu\n");
     scanf("%d", &command);
     switch (command) {
@@ -454,6 +455,10 @@ void selectData(Trip * filteredTrips){
             filteredTrips = selectTripsByDuration(filteredTrips, duration);
             mainMenu(filteredTrips, stationsHead);
             break;
+        case 4:
+            readTripsData();
+            readStationData();
+            mainMenu(tripsHead, stationsHead);
         default:
             if (filteredTrips != NULL) mainMenu(filteredTrips, stationsHead);
             else mainMenu(tripsHead, stationsHead);
@@ -584,20 +589,36 @@ void printTripsList(Trip *head, int limit) {
     
     struct Trip *aux = head;
     int lineCounter = 0;
+    
+    printf(" ID      | Dur    | Start: Date      | St | End: Date        | St | Bike ID | Type | Year | Gender\n");
+    
     while (aux != NULL) {
-        printf("* * * * * * * * %d\n", lineCounter);
-        printf("id: %ld\n", aux->id);
-        printf("Duration: %d\n", aux->duration);
-        printf("Start Date: %d/%d/%d %d:%d\n", aux->start.month, aux->start.day, aux->start.year, aux->start.hour, aux->start.minute);
-        printf("Start Station ID: %d\n", aux->id_start_station);
-        printf("End Date: %d/%d/%d %d:%d\n", aux->end.month, aux->end.day, aux->end.year, aux->end.hour, aux->end.minute);
-        printf("Final Station ID: %d\n", aux->id_final_station);
-        printf("Bike ID: %s\n", aux->bike);
-        printf("User Type: %d\n", aux->type);
-        printf("Year of Birth: %d\n", aux->year_birthday);
-        printf("Gender: %d\n", aux->gender);
+        //printf(" %d\n", lineCounter);
+        printf(" %07ld | ", aux->id);
+        printf("%06d | ", aux->duration);
+        printf("%02d/%02d/%d %02d:%02d | ", aux->start.month, aux->start.day, aux->start.year, aux->start.hour, aux->start.minute);
+        printf("%02d | ", aux->id_start_station);
+        printf("%02d/%02d/%d %02d:%02d | ", aux->end.month, aux->end.day, aux->end.year, aux->end.hour, aux->end.minute);
+        printf("%02d | ", aux->id_final_station);
+        printf(" %s | ", aux->bike);
+        if (aux->type == REGISTERED) {
+            printf("Reg. | ");
+        } else {
+            printf("Cas. | ");
+        }
+        if (aux->year_birthday != 0) {
+            printf("%04d |", aux->year_birthday);
+        }
+        if (aux->gender == MALE) {
+            printf(" M");
+        } else if (aux->gender == FEMALE) {
+            printf(" F");
+        }
+        printf("\n");
         aux = aux->next;
+        
         lineCounter++;
+        
         if ((limit != 0) && (lineCounter >= limit)) {
             return;
         }
@@ -605,24 +626,29 @@ void printTripsList(Trip *head, int limit) {
 }
 
 // prints stations list to screen
-void printStationsList(Station *head, int limit) {
+void printStationsList(Station *head, int limit, int printWithNoTrips) {
     struct Station *aux = head;
     int lineCounter = 0;
     printf(" ID | Name   | Latitude   | Longitude  | MaxIn | MinIn | Avg In | MaxOut | MinOut | Avg Out\n");
     
     while (aux != NULL) {
-        //printf("%d\n", lineCounter);
         
-        printf(" %02d | ", aux->id);
-        printf("%s | ", aux->name);
-        printf(" %f | ", aux->latitude);
-        printf("%f | ", aux->longitude);
-        printf("  %03d | ", aux->max_bikesIn);
-        printf("   %02d | ", aux->min_bikesIn);
-        printf(" %05.2f | ", aux->avg_bikesIn);
-        printf("   %03d | ", aux->max_bikesOut);
-        printf("    %02d | ", aux->min_bikesOut);
-        printf(" %05.2f \n", aux->avg_bikesOut);
+        // only print if the station has some trips, or if it should print even with no trips
+        if ((printWithNoTrips == 2 && aux->max_bikesIn != 0 && aux->max_bikesOut != 0) || printWithNoTrips == 1) {
+            
+            //printf("%d\n", lineCounter);
+            
+            printf(" %02d | ", aux->id);
+            printf("%s | ", aux->name);
+            printf(" %f | ", aux->latitude);
+            printf("%f | ", aux->longitude);
+            printf("  %03d | ", aux->max_bikesIn);
+            printf("   %02d | ", aux->min_bikesIn);
+            printf(" %05.2f | ", aux->avg_bikesIn);
+            printf("   %03d | ", aux->max_bikesOut);
+            printf("    %02d | ", aux->min_bikesOut);
+            printf(" %05.2f \n", aux->avg_bikesOut);
+        }
         
         aux = aux->next;
         lineCounter++;
