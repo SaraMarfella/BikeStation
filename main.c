@@ -381,7 +381,9 @@ void mainMenu(Trip * tripsList, Station * stationsList){
     printf("Any other key: Quit\n");
     scanf("%d", &command);
     switch (command) {
-        case 1: selectData(tripsList); break;
+        case 1:
+            selectData(tripsList);
+            break;
         case 2:
             printf("How many trips do you want to print? (0..32000, enter 0 for all)\n");
             scanf("%d", &command);
@@ -426,9 +428,9 @@ void selectData(Trip * filteredTrips){
     scanf("%d", &command);
     switch (command) {
         case 1:
-            printf("Insert start time of trip (hour between 0..24):\n");
+            printf("Insert start time of trip (hour between 0..23):\n");
             scanf("%d", &hour_start);
-            printf("Insert end time of trip (hour between 0..24):\n");
+            printf("Insert end time of trip (hour between 0..23):\n");
             scanf("%d", &hour_end);
             filteredTrips = selectTripsByTime(filteredTrips, hour_start, hour_end);
             mainMenu(filteredTrips, stationsHead);
@@ -629,4 +631,3 @@ void printStationsList(Station *head, int limit) {
         }
     }
 }
-
