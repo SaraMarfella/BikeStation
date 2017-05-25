@@ -1,7 +1,7 @@
 /*  GENERAL INFORMATION
-
- Project created by Sara Marfella IST188316 on May 16, 2017
-
+*
+* Project created by Sara Marfella IST188316 on May 16, 2017
+*
 * Implemented:
 * 1. Load the data structures required to represent
 *    the stations and the trips.
@@ -127,6 +127,8 @@ void mainMenu(Trip * tripsList, Station * stationsList){
             break;
     }
 }
+
+
 
 /* List of Stations Menu:   creates and prints the list of
  *                          stations with max/min/avg
@@ -261,7 +263,7 @@ void selectDataMenu(Trip * filteredTrips, Station * allStations){
  */
 void selectStationMenu(Station * allStations,Trip * filteredTrips,int id){
     int command = -1;
-    char stationName[7] = "";
+    char stationName[ID_SIZE] = "";
 
     // validate id of station
     while (strcmp(stationName, "") == 0) {
@@ -291,8 +293,7 @@ void statsMenu() {
 
 /* clearInputBuffer: handles input of multiple characters
  * resets the input buffer to avoid double-commands
- * Source:
- * stackoverflow.com/questions/3969871/using-getchar-on-c-gets-the-enter-after-input
+ * Source: stackoverflow.com/questions/3969871/
  */
 void clearInputBuffer() // works only if the input buffer is not empty
 {

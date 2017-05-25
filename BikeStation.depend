@@ -1,10 +1,12 @@
 # depslib dependency file v1.0
-1495644573 source:/home/sara/Scrivania/BikeStation/main.c
+1495735661 source:/home/sara/Scrivania/BikeStation/main.c
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
 	<stdbool.h>
 	<string.h>
+	"dataManager.h"
+	"print.h"
 
 1495717049 source:/Users/mauro/GitHub/BikeStation/dataManager.c
 	"dataManager.h"
@@ -34,5 +36,26 @@
 	"dataManager.h"
 
 1495717872 source:/Users/mauro/GitHub/BikeStation/print.c
+	"print.h"
+
+1495735661 source:/home/sara/Scrivania/BikeStation/dataManager.c
+	"dataManager.h"
+
+1495736038 /home/sara/Scrivania/BikeStation/dataManager.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<stdbool.h>
+	<string.h>
+
+1495730407 /home/sara/Scrivania/BikeStation/print.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<stdbool.h>
+	<string.h>
+	"dataManager.h"
+
+1495733754 source:/home/sara/Scrivania/BikeStation/print.c
 	"print.h"
 

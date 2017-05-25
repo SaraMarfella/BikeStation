@@ -1,4 +1,6 @@
 
+/* Project created by Sara Marfella IST188316 on May 16, 2017 */
+
 #ifndef dataManager_h
 #define dataManager_h
 
@@ -9,13 +11,14 @@
 #include <string.h>
 
 // CONSTANTS
-#define MAX_SIZE 100 // max size of a string
-#define REGISTERED 1 // the registered member
-#define CASUAL 0 // the casual user
-#define MALE 1 // the male gender
-#define FEMALE 2 // the female gender
-#define EXISTING 1
-#define REMOVED 0
+#define MAX_SIZE 150    // max size of a string
+#define ID_SIZE 7       // size of Bike ID and station name
+#define REGISTERED 1    // the registered member
+#define CASUAL 0        // the casual user
+#define MALE 1          // the male gender
+#define FEMALE 2        // the female gender
+#define EXISTING 1      // the existing station status
+#define REMOVED 0       // the removed station status
 
 //ALL THE STRUCT
 
@@ -36,17 +39,17 @@ typedef struct Trip{
     int id_start_station;
     Date end;
     int id_final_station;
-    char bike[7];
+    char bike[ID_SIZE];
     int type; // the user can be casual or members
     int year_birthday; // only in case of members
-    int gender; // female or man only in case of members
+    int gender; // female or male only in case of members
     struct Trip *next;
 }Trip;
 
 // Linked List of Stations
 typedef struct Station{
     int id;
-    char name[7];
+    char name[ID_SIZE];
     char full_name[MAX_SIZE];
     char municipal[MAX_SIZE];
     double latitude;
@@ -61,13 +64,16 @@ typedef struct Station{
     struct Station *next;
 }Station;
 
+
+
+
 // LinkedList of Routes
 typedef struct Route{
     int total;
     int id_start_station;
-    char name_start_station[7];
+    char name_start_station[ID_SIZE];
     char id_final_station;
-    char name_final_station[7];
+    char name_final_station[ID_SIZE];
     struct Route *next;
 }Route;
 

@@ -1,4 +1,6 @@
 
+/* Project created by Sara Marfella IST188316 on May 16, 2017 */
+
 #ifndef print_h
 #define print_h
 
@@ -10,8 +12,8 @@
 #include "dataManager.h"
 
 // Constants
-#define YES 1
-#define NO 2
+#define YES 1   // used by printStationsList
+#define NO 2    // used by printStationsList
 
 // print functions
 void printTripsList(Trip*, int);

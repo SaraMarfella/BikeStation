@@ -1,3 +1,6 @@
+
+/* Project created by Sara Marfella IST188316 on May 16, 2017 */
+
 #include "dataManager.h"
 
 // FILE READERS
@@ -7,7 +10,7 @@
  * \return  stationsHead     list of stations header
  */
 Station * readStationData(char *filename){
-    char line[1024];
+    char line[MAX_SIZE];
     char *token;
     char *separators = ",";
     int lineNumber = 0;
@@ -77,7 +80,7 @@ Station * readStationData(char *filename){
  * \return  tripsHead     list of trips header
  */
 Trip * readTripsData(char *filename){
-    char line[1024];
+    char line[MAX_SIZE];
     char *token;
     char *separators = ", /:\n";
     int lineNumber = 0;
@@ -186,7 +189,7 @@ Route * createRoutesList(Trip * tripList, Station * allStations,
     Route * routes = NULL;
     Station * auxStations = allStations;
 
-    char selected_station_name[7];
+    char selected_station_name[ID_SIZE];
     strcpy(selected_station_name,
            getStationNameById(selected_station_id, allStations));
 
@@ -317,8 +320,8 @@ Station * countBikes(Trip *tripsList, Station *stationsList,
                 outTotal += counterOut[i];
             }
 
-            // handle scenario: hour start is < then hour end
-            // (i.e. 22 to 4)
+        // handle scenario: hour start is < then hour end
+        // (i.e. 22 to 4)
         } else if (start > end) {
             for (int i = start; i<24; i++) {
                 if (maxIn < counterIn[i]) maxIn = counterIn[i];
@@ -378,7 +381,8 @@ Station * countBikes(Trip *tripsList, Station *stationsList,
  *                    and hour end
  * \param   sourceListHead        the head of the trips list
  *                                (can be filtered)
- * \param   hour_start            the start hour for the selectTripsByTime filter
+ * \param   hour_start            the start hour for the selectTripsByTime
+ *                                filter
  * \param   hour_end              the end hour for the
  *                                selectTripsByTime filter
  * \return  filteredTripsHead     the head of the trips list, filtered
@@ -456,6 +460,9 @@ Trip* selectTripsByDuration(Trip * sourceListHead, int duration) {
     }
     return filteredTripsHead;
 }
+
+
+
 
 /* selectTripsByDay: returns list of trips given day of week
  * \param   sourceListHead        the head of the trips list
@@ -542,8 +549,7 @@ Trip* copyTripToList(Trip * filteredTripsHead, Trip * aux) {
 
 /* calculateWeekDateFromDate: Calculate the day of the week this
 *                             current trip was in
- * -Source:
- * stackoverflow.com/questions/6054016/c-program-to-find-day-of-week-given-date
+ * -Source: stackoverflow.com/questions/6054016/
  * \param   y       year (4 digits)
  * \param   m       month (2 digits)
  * \param   d       day (2 digits)
