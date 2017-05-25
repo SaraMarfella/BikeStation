@@ -9,6 +9,10 @@
 #include <string.h>
 #include "dataManager.h"
 
+// Constants
+#define YES 1
+#define NO 2
+
 // print functions
 void printTripsList(Trip*, int);
 void printStationsList(Station*, int, int);

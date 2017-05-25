@@ -3,6 +3,10 @@
 
 // FILE READERS
 
+/* readStationData: parse csv file for stations
+ * \param   filename         path and filename of csv file for stations
+ * \return  stationsHead     list of stations header
+ */
 Station * readStationData(char *filename){
     char line[1024];
     char *token;
@@ -57,6 +61,10 @@ Station * readStationData(char *filename){
     return stationsHead;
 }
 
+/* readTripsData: parse csv file for trips
+ * \param   filename         path and filename of csv file for trips
+ * \return  tripsHead     list of trips header
+ */
 Trip * readTripsData(char *filename){
     char line[1024];
     char *token;
@@ -150,7 +158,12 @@ Trip * readTripsData(char *filename){
 
 // LIST CREATORS
 
-// returns the list of routes, ordered desc
+/* createRoutesList: returns the list of routes, ordered descendant
+ * \param   tripList              the head of the trips list (can be filtered)
+ * \param   allStations           the head of all stations list
+ * \param   selected_station_id   the ID of the selected station
+ * \return  routes                the head of the routes list
+ */
 Route * createRoutesList(Trip * tripList, Station * allStations, int selected_station_id) {
     Route * routes = NULL;
     Station * auxStations = allStations;
@@ -215,7 +228,13 @@ Route * createRoutesList(Trip * tripList, Station * allStations, int selected_st
     return routes;
 }
 
-// returns list of stations with all the max/min/avg populated
+/* countBikes: returns list of stations with all the max/min/avg populated
+ * \param   tripList              the head of the trips list (can be filtered)
+ * \param   stationsList          the head of stations list
+ * \param   filtered_hour_start   the start hour for the selectTripsByTime filter
+ * \param   filtered_hour_end     the end hour for the selectTripsByTime filter
+ * \return  stationsList          the head of the stations list, with all calculated data added
+ */
 Station * countBikes(Trip *tripsList, Station *stationsList, int filter_hour_start, int filter_hour_end) {
     struct Station * auxStations = stationsList;
     
@@ -342,6 +361,12 @@ Station * countBikes(Trip *tripsList, Station *stationsList, int filter_hour_sta
 
 // LIST FILTERS
 
+/* selectTripsByTime: returns list of trips between hour star and hour end
+ * \param   sourceListHead        the head of the trips list (can be filtered)
+ * \param   hour_start            the start hour for the selectTripsByTime filter
+ * \param   hour_end              the end hour for the selectTripsByTime filter
+ * \return  filteredTripsHead     the head of the trips list, filtered
+ */
 Trip* selectTripsByTime(Trip * sourceListHead, int hour_start, int hour_end) {
     Trip *aux = sourceListHead;
     Trip *filteredTripsHead = NULL;
@@ -362,7 +387,8 @@ Trip* selectTripsByTime(Trip * sourceListHead, int hour_start, int hour_end) {
         // handle scenario: hour start > hour end
         // if user enters trips from 18 to 17, we take all trips between 18:00 and 23:59, and all trips between 0:00 and 17:59
         else if (hour_start > hour_end) {
-            if ( ( (aux->start.hour >= hour_start) && (aux->end.hour <= 23) ) || ( (aux->start.hour >= 0) && (aux->end.hour < hour_end)) ){
+            if ( ( (aux->start.hour >= hour_start) && (aux->end.hour <= 23) ) ||
+                 ( (aux->start.hour >= 0) && (aux->end.hour < hour_end)) ){
                 // get all trips between hour_start and 23:59.
                 // get all trips between 0 and hour_end.
                 shouldSave = true;
@@ -385,6 +411,11 @@ Trip* selectTripsByTime(Trip * sourceListHead, int hour_start, int hour_end) {
     return filteredTripsHead;
 }
 
+/* selectTripsByDuration: returns list of trips given max duration
+ * \param   sourceListHead        the head of the trips list (can be filtered)
+ * \param   duration              the maximum duration of a trip in seconds
+ * \return  filteredTripsHead     the head of the trips list, filtered
+ */
 Trip* selectTripsByDuration(Trip * sourceListHead, int duration) {
     struct Trip *aux = sourceListHead;
     struct Trip *filteredTripsHead = NULL;
@@ -398,6 +429,11 @@ Trip* selectTripsByDuration(Trip * sourceListHead, int duration) {
     return filteredTripsHead;
 }
 
+/* selectTripsByDay: returns list of trips given day of week
+ * \param   sourceListHead        the head of the trips list (can be filtered)
+ * \param   selectedDay           an int representing the day of the week (1 monday..7 sunday)
+ * \return  filteredTripsHead     the head of the trips list, filtered
+ */
 Trip* selectTripsByDay(Trip * sourceListHead, int selectedDay){
     
     struct Trip *aux = sourceListHead;
@@ -420,6 +456,11 @@ Trip* selectTripsByDay(Trip * sourceListHead, int selectedDay){
     return filteredTripsHead;
 }
 
+/* selectTripsByIdStation: returns list of trips given a station ID
+ * \param   sourceListHead        the head of the trips list (can be filtered)
+ * \param   id                    the station ID
+ * \return  filteredTripsHead     the head of the trips list, filtered
+ */
 Trip* selectTripsByIdStation(Trip * sourceListHead, int id) {
     int counter=0;
     struct Trip *aux = sourceListHead;
@@ -433,13 +474,16 @@ Trip* selectTripsByIdStation(Trip * sourceListHead, int id) {
         
         aux = aux->next;
     }
-    //printf("Total Trips Found: %d\n", counter);
     return filteredTripsHead;
 }
 
 // HELPERS
 
-// Add element at bottom of Trip List
+/* copyTripToList: add element at top of Trip List
+ * \param   filteredTripsHead     the head of the trips list to add the element into
+ * \param   aux                   the trip to be added to the list
+ * \return  filteredTripsHead     the head of the trips list, witht he new element at the top
+ */
 Trip* copyTripToList(Trip * filteredTripsHead, Trip * aux) {
     
     Trip* trip = (Trip*)malloc(sizeof(Trip));
@@ -461,14 +505,22 @@ Trip* copyTripToList(Trip * filteredTripsHead, Trip * aux) {
     return filteredTripsHead;
 }
 
-// Calculate the day of the week this current trip was in
-// Source: https://stackoverflow.com/questions/6054016/c-program-to-find-day-of-week-given-date
+/* calculateWeekDateFromDate: Calculate the day of the week this current trip was in
+ * -Source: https://stackoverflow.com/questions/6054016/c-program-to-find-day-of-week-given-date
+ * \param   y       year (4 digits)
+ * \param   m       month (2 digits)
+ * \param   d       day (2 digits)
+ * \return  weekday number 1 to 7 with 1 = monday and 7 = sunday
+ */
 int calculateWeekDateFromDate(int y, int m, int d) {
     int weekday  = (d += m < 3 ? y-- : y - 2, 23*m/9 + d + 4 + y/4- y/100 + y/400)%7;
     return weekday;
 }
 
-// insert a route in the correct order
+/* sortedInsert: insert a route in the correct order
+ * \param   head_ref       the head of the list to add the route into
+ * \param   new_node       the new route to add to the list
+ */
 void sortedInsert(Route** head_ref, Route* new_node) {
     Route* current;
     // handle scenario for the head end
@@ -488,7 +540,12 @@ void sortedInsert(Route** head_ref, Route* new_node) {
     }
 }
 
-// Get a Station Name by its ID
+/* getStationNameById: Get a Station Name by its ID
+ * \param   id                  the ID of the station to look for
+ * \param   allStations         the head of all stations list
+ * \return  auxStations->name   containing the station name, or an empty string 
+ *                              if no station was found
+ */
 char * getStationNameById(int id, Station * allStations) {
     Station * auxStations = allStations;
     while (auxStations != NULL) {
@@ -497,7 +554,7 @@ char * getStationNameById(int id, Station * allStations) {
         }
         auxStations = auxStations->next;
     }
-    return NULL;
+    return "";
 }
 
 

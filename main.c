@@ -1,6 +1,22 @@
-/* GENERAL INFORMATION
- / Project created by Sara Marfella IST188316
- / on May 2017
+/*  GENERAL INFORMATION
+ 
+ Project created by Sara Marfella IST188316 on May 16, 2017
+ 
+ Implemented:
+ 1. Criação das estruturas de dados necessárias para representar as estações e as viagens.
+ 2. Leitura parâmetros do main e dos ficheiros necessários ao funcionamento do programa.
+ 3. Construção dos menus e introdução dos dados.
+ 4. Construção das listas de viagens e de estações, inserindo os elementos de uma forma ordenada.
+ 5. Implementação do modo de listagem de viagens.
+ 6. Implementação da seleção de dados, removendo elementos da lista de viagens.
+ 7. Implementação do modo de listagem das estações.
+ 8. Implementação do modo de listagem de rotas.
+ 
+ Not Implemented:
+ 9. Implementação do modo gráfico.
+ 10. Implementação da análise estatística de dados.
+ 11. Eventuais melhorias ao modo gráfico da aplicação, recorrendo a um mapa real.
+ 
  */
 
 #include <stdio.h>
@@ -28,8 +44,8 @@ void selectStationMenu(Station*, Trip*, int);
 void statsMenu();
 void clearInputBuffer();
 
-/*function main
- @param mode(-g or -t) and file (file travelers and file stations)
+/* Main Function
+ * \param mode and file (file travelers and file stations)
  */
 int main (int argc, char *argv[]){
     
@@ -55,6 +71,11 @@ int main (int argc, char *argv[]){
 }
 
 /* Command Line Interface */
+
+/* mainMenu: prints the main menu and handles the main menu options
+ * \param tripList      the header of the trip list (can be the filtered list)
+ * \param stationsList  the header of the stations list
+ */
 void mainMenu(Trip * tripsList, Station * stationsList){
     int command;
     printf("\n * M A I N   M E N U * \n\n");
@@ -71,9 +92,12 @@ void mainMenu(Trip * tripsList, Station * stationsList){
             selectDataMenu(tripsList, stationsList);
             break;
         case 2:
-            printf("How many trips do you want to print? (0..32000, enter 0 for all)\n");
-            scanf("%d", &command);
-            clearInputBuffer();
+            command = -1;
+            while ((command < 0) || (command > 32000)) {
+             printf("How many trips do you want to print? (0..32000, enter 0 for all)\n");
+             scanf("%d", &command);
+             clearInputBuffer();
+            }
             printTripsList(tripsList, command);
             mainMenu(tripsList, stationsList);
             break;
@@ -97,17 +121,25 @@ void mainMenu(Trip * tripsList, Station * stationsList){
     }
 }
 
+/* List of Stations Menu: creates and prints the list of stations with max/min/avg
+ * \param tripList      the header of the trip list (usually the filtered list)
+ * \param stationsList  the header of the stations list
+ */
 void listOfStationsMenu(Trip * tripsList, Station * stationsList) {
     Station * filteredStations = countBikes(tripsList, stationsList, filter_hour_start, filter_hour_end);
     
-    // option to ask the user: limit (0 for all), should print stations with no trips (1 yes, 2 no)
-    printStationsList(filteredStations, 0, 1);
+    // option to ask the user: limit (0 for all), should print stations with no trips (YES, NO)
+    printStationsList(filteredStations, 0, YES);
     mainMenu(tripsList, stationsList);
 }
 
+/* SelectDataMenu: prints and manages the menu to set search criteria
+ * \param filteredTrips     the header of the trip list (can be the filtered list)
+ * \param allStations       the header of all stations list
+ */
 void selectDataMenu(Trip * filteredTrips, Station * allStations){
     
-    int duration, command;
+    int duration = -1, command;
     
     printf("\n * Select the mode of your search * \n\n");
     printf("  [ 1 ]   Period of time (hour start, hour end)\n\n");
@@ -169,9 +201,11 @@ void selectDataMenu(Trip * filteredTrips, Station * allStations){
             mainMenu(filteredTrips, allStations);
             break;
         case 3:
-            printf("Insert the max duration of trip (in seconds):\n");
-            scanf("%d", &duration);
-            clearInputBuffer();
+            while ((duration < 0) || (duration > 32767)) {
+                printf("Insert the max duration of trip (in seconds):\n");
+                scanf("%d", &duration);
+                clearInputBuffer();
+            }
             filteredTrips = selectTripsByDuration(filteredTrips, duration);
             mainMenu(filteredTrips, allStations);
             break;
@@ -199,25 +233,45 @@ void selectDataMenu(Trip * filteredTrips, Station * allStations){
     }
 }
 
+/* selectStationMenu:
+ * \param allStations      the header of all stations list
+ * \param filteredTrips    the header of the trips list (can be filtered)
+ * \param id               the ID of the station
+ */
 void selectStationMenu(Station * allStations, Trip * filteredTrips, int id) {
-    int command;
-    printf("Insert the id of the station:\n");
-    scanf("%d", &id);
-    clearInputBuffer();
+    int command = -1;
+    char stationName[7] = "";
+    
+    // validate id of station
+    while (strcmp(stationName, "") == 0) {
+        printf("Insert the id of the station:\n");
+        scanf("%d", &id);
+        clearInputBuffer();
+        strcpy(stationName, getStationNameById(id, allStations));
+    }
     filteredTrips = selectTripsByIdStation(filteredTrips, id);
-    printf("How many routes do yo want to print? (0 for all)\n");
-    scanf("%d", &command);
-    clearInputBuffer();
+    
+    command = -1;
+    while ((command <0) || (command > 32767)) {
+        printf("How many routes do yo want to print? (0 for all)\n");
+        scanf("%d", &command);
+        clearInputBuffer();
+    }
     printRoutesList(filteredTrips, allStations, id, command);
     Trip * allTrips = readTripsData(trips_file);
     mainMenu(allTrips, allStations);
 }
 
+/* statsMenu: placeholder for the stats section 
+ */
 void statsMenu() {
     printf("Sorry, the statistics are not yet implemented\n");
 }
 
-// Source: https://stackoverflow.com/questions/3969871/using-getchar-on-c-gets-the-enter-after-input
+/* clearInputBuffer: handles input of multiple characters
+ * resets the input buffer to avoid double-commands
+ * Source: https://stackoverflow.com/questions/3969871/using-getchar-on-c-gets-the-enter-after-input
+ */
 void clearInputBuffer() // works only if the input buffer is not empty
 {
     char c;

@@ -3,7 +3,12 @@
 
 /* Print Functions */
 
-// prints the list of routes
+/* printRoutesList: prints the list of routes
+ * \param tripList              the header of the trips list (can be filtered)
+ * \param allStations           the header of all stations list
+ * \param selected_station_id   the id for the station to print the routes
+ * \param limit                 the number of routes to print
+ */
 void printRoutesList(Trip * tripList, Station * allStations, int selected_station_id, int limit) {
     Route * route = createRoutesList(tripList, allStations, selected_station_id);
     printf(" Total | ID | Name    =>   ID | Name    \n");
@@ -17,7 +22,10 @@ void printRoutesList(Trip * tripList, Station * allStations, int selected_statio
     }
 }
 
-// prints trips list to screen
+/* printTripstList: prints trips list to screen
+ * \param head      the header for the trip list (can be filtered)
+ * \param limit     the number of trips to print
+ */
 void printTripsList(Trip *head, int limit) {
     
     struct Trip *aux = head;
@@ -58,7 +66,11 @@ void printTripsList(Trip *head, int limit) {
     printf("\n%d trips found.\n", lineCounter);
 }
 
-// prints stations list to screen
+/* printStationsList: prints stations list to screen
+ * \param head              the header for the stations list
+ * \param limit             the number of stations to print
+ * \param printWithNoTrips  should print stations with no trips (YES, NO)
+ */
 void printStationsList(Station *head, int limit, int printWithNoTrips) {
     struct Station *aux = head;
     int lineCounter = 0;
