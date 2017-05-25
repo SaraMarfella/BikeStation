@@ -7,7 +7,7 @@
 /Contents 4 0 R>>
 endobj
 4 0 obj
-<</Length 18931>>
+<</Length 19003>>
 stream
 q
 1.000 0.000 0.000 -1.000 0.000 841.890 cm
@@ -55,7 +55,7 @@ q 0.627 0.627 0.627 rg BT 1 0 0 -1 61.35 241.41 Tm 0 Tr (* 9. Implementation of 
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 252.75 Tm 0 Tr ( 20  ) Tj  ET Q
 q 0.627 0.627 0.627 rg BT 1 0 0 -1 61.35 252.75 Tm 0 Tr (* 10. Implementation of statistical analysis.) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 264.09 Tm 0 Tr ( 21  ) Tj  ET Q
-q 0.627 0.627 0.627 rg BT 1 0 0 -1 61.35 264.09 Tm 0 Tr (* 11. Improvements of application graphics mode, ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 61.35 264.09 Tm 0 Tr (* 11. Improvements of application graphics mode,) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 275.43 Tm 0 Tr ( 22  ) Tj  ET Q
 q 0.627 0.627 0.627 rg BT 1 0 0 -1 61.35 275.43 Tm 0 Tr (*     with a real map.) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 286.77 Tm 0 Tr ( 23  ) Tj  ET Q
@@ -276,7 +276,8 @@ q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 728.97 Tm 0 Tr (        ) Tj  ET Q
 1.000 1.000 1.000 rg
 114.15 720.00 39.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 114.15 728.97 Tm 0 Tr (printf) Tj  ET Q
 q 1.000 0.000 0.000 rg BT 1 0 0 -1 153.75 728.97 Tm 0 Tr (\() Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 160.35 728.97 Tm 0 Tr ("Sorry - only text mode is available,) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 160.35 728.97 Tm 0 Tr ("Sorry - only text mode is available,") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 411.15 728.97 Tm 0 Tr (\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 740.31 Tm 0 Tr ( 63  ) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 740.31 Tm 0 Tr (        ) Tj  ET Q
 1.000 1.000 1.000 rg
@@ -307,7 +308,7 @@ endobj
 /Contents 6 0 R>>
 endobj
 6 0 obj
-<</Length 29929>>
+<</Length 12504>>
 stream
 q
 1.000 0.000 0.000 -1.000 0.000 841.890 cm
@@ -344,422 +345,126 @@ q 0.941 0.000 0.941 rg BT 1 0 0 -1 265.95 48.66 Tm 0 Tr (3) Tj  ET Q
 q 1.000 0.000 0.000 rg BT 1 0 0 -1 272.55 48.66 Tm 0 Tr (]\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 60.00 Tm 0 Tr ( 69  ) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 71.34 Tm 0 Tr ( 70  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 71.34 Tm 0 Tr (    ) Tj  ET Q
-1.000 1.000 1.000 rg
-87.75 62.37 33.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 87.75 71.34 Tm 0 Tr (Trip ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 120.75 71.34 Tm 0 Tr (* ) Tj  ET Q
-1.000 1.000 1.000 rg
-133.95 62.37 59.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 133.95 71.34 Tm 0 Tr (allTrips ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 193.35 71.34 Tm 0 Tr (= ) Tj  ET Q
-1.000 1.000 1.000 rg
-206.55 62.37 85.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 206.55 71.34 Tm 0 Tr (readTripsData) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 292.35 71.34 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-298.95 62.37 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 298.95 71.34 Tm 0 Tr (trips_file) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 364.95 71.34 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 71.34 Tm 0 Tr (    Trip * allTrips = readTripsData\(trips_file\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 82.67 Tm 0 Tr ( 71  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 82.67 Tm 0 Tr (    ) Tj  ET Q
-1.000 1.000 1.000 rg
-87.75 73.70 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 87.75 82.67 Tm 0 Tr (Station ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 140.55 82.67 Tm 0 Tr (* ) Tj  ET Q
-1.000 1.000 1.000 rg
-153.75 73.70 79.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 153.75 82.67 Tm 0 Tr (allStations ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.95 82.67 Tm 0 Tr (= ) Tj  ET Q
-1.000 1.000 1.000 rg
-246.15 73.70 99.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 246.15 82.67 Tm 0 Tr (readStationData) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 345.15 82.67 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-351.75 73.70 85.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 351.75 82.67 Tm 0 Tr (stations_file) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 437.55 82.67 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 82.67 Tm 0 Tr (    Station * allStations = readStationData\(stations_file\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 94.01 Tm 0 Tr ( 72  ) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 105.35 Tm 0 Tr ( 73  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 105.35 Tm 0 Tr (    ) Tj  ET Q
-1.000 1.000 1.000 rg
-87.75 96.38 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 87.75 105.35 Tm 0 Tr (mainMenu) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 140.55 105.35 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-147.15 96.38 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 147.15 105.35 Tm 0 Tr (allTrips) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 199.95 105.35 Tm 0 Tr (, ) Tj  ET Q
-1.000 1.000 1.000 rg
-213.15 96.38 72.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 213.15 105.35 Tm 0 Tr (allStations) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 285.75 105.35 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 105.35 Tm 0 Tr (    mainMenu\(allTrips, allStations\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 116.69 Tm 0 Tr ( 74  ) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 128.03 Tm 0 Tr ( 75  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 128.03 Tm 0 Tr (    ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 87.75 128.03 Tm 0 Tr (return ) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 0.941 0.000 0.941 rg BT 1 0 0 -1 133.95 128.03 Tm 0 Tr (0) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 140.55 128.03 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 128.03 Tm 0 Tr (    return 0;) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 139.37 Tm 0 Tr ( 76  ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 61.35 139.37 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 139.37 Tm 0 Tr (}) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 150.71 Tm 0 Tr ( 77  ) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 162.04 Tm 0 Tr ( 78  ) Tj  ET Q
-q 0.627 0.627 0.627 rg BT 1 0 0 -1 61.35 162.04 Tm 0 Tr (/* Command Line Interface */) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 162.04 Tm 0 Tr (/* Command Line Interface */) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 173.38 Tm 0 Tr ( 79  ) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 184.72 Tm 0 Tr ( 80  ) Tj  ET Q
-q 0.627 0.627 0.627 rg BT 1 0 0 -1 61.35 184.72 Tm 0 Tr (/* mainMenu: prints the main menu and handles the main menu options) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 184.72 Tm 0 Tr (/* mainMenu: prints the main menu and handles the main menu options) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 196.06 Tm 0 Tr ( 81  ) Tj  ET Q
-q 0.627 0.627 0.627 rg BT 1 0 0 -1 67.95 196.06 Tm 0 Tr (* \\param tripList      the header of the trip list) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 196.06 Tm 0 Tr ( * \\param tripList      the header of the trip list) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 207.40 Tm 0 Tr ( 82  ) Tj  ET Q
-q 0.627 0.627 0.627 rg BT 1 0 0 -1 67.95 207.40 Tm 0 Tr (*                      \(can be the filtered list\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 207.40 Tm 0 Tr ( *                      \(can be the filtered list\)) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 218.74 Tm 0 Tr ( 83  ) Tj  ET Q
-q 0.627 0.627 0.627 rg BT 1 0 0 -1 67.95 218.74 Tm 0 Tr (* \\param stationsList  the header of the stations list) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 218.74 Tm 0 Tr ( * \\param stationsList  the header of the stations list) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 230.08 Tm 0 Tr ( 84  ) Tj  ET Q
-q 0.627 0.627 0.627 rg BT 1 0 0 -1 67.95 230.08 Tm 0 Tr (*/) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 230.08 Tm 0 Tr ( */) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 241.41 Tm 0 Tr ( 85  ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 61.35 241.41 Tm 0 Tr (void ) Tj  ET Q
-BT /F1 11.00 Tf ET
-1.000 1.000 1.000 rg
-94.35 232.44 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 94.35 241.41 Tm 0 Tr (mainMenu) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 147.15 241.41 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-153.75 232.44 33.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 153.75 241.41 Tm 0 Tr (Trip ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 186.75 241.41 Tm 0 Tr (* ) Tj  ET Q
-1.000 1.000 1.000 rg
-199.95 232.44 59.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 199.95 241.41 Tm 0 Tr (tripsList) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 259.35 241.41 Tm 0 Tr (, ) Tj  ET Q
-1.000 1.000 1.000 rg
-272.55 232.44 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 272.55 241.41 Tm 0 Tr (Station ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 325.35 241.41 Tm 0 Tr (* ) Tj  ET Q
-1.000 1.000 1.000 rg
-338.55 232.44 79.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 338.55 241.41 Tm 0 Tr (stationsList) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 417.75 241.41 Tm 0 Tr (\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 241.41 Tm 0 Tr (void mainMenu\(Trip * tripsList, Station * stationsList\){) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 252.75 Tm 0 Tr ( 86  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 252.75 Tm 0 Tr (    ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 87.75 252.75 Tm 0 Tr (int ) Tj  ET Q
-BT /F1 11.00 Tf ET
-1.000 1.000 1.000 rg
-114.15 243.78 46.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 114.15 252.75 Tm 0 Tr (command) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 252.75 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 252.75 Tm 0 Tr (    int command;) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 264.09 Tm 0 Tr ( 87  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 264.09 Tm 0 Tr (    ) Tj  ET Q
-1.000 1.000 1.000 rg
-87.75 255.12 39.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 87.75 264.09 Tm 0 Tr (printf) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 127.35 264.09 Tm 0 Tr (\() Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 133.95 264.09 Tm 0 Tr ("\\n * M A I N   M E N U * \\n\\n") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 338.55 264.09 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 264.09 Tm 0 Tr (    printf\("\\n * M A I N   M E N U * \\n\\n"\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 275.43 Tm 0 Tr ( 88  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 275.43 Tm 0 Tr (    ) Tj  ET Q
-1.000 1.000 1.000 rg
-87.75 266.46 39.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 87.75 275.43 Tm 0 Tr (printf) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 127.35 275.43 Tm 0 Tr (\() Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 133.95 275.43 Tm 0 Tr ("  [ 1 ]   Select the data\\n\\n") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 338.55 275.43 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 275.43 Tm 0 Tr (    printf\("  [ 1 ]   Select the data\\n\\n"\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 286.77 Tm 0 Tr ( 89  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 286.77 Tm 0 Tr (    ) Tj  ET Q
-1.000 1.000 1.000 rg
-87.75 277.80 39.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 87.75 286.77 Tm 0 Tr (printf) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 127.35 286.77 Tm 0 Tr (\() Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 133.95 286.77 Tm 0 Tr ("  [ 2 ]   Print List of trips\\n\\n") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 364.95 286.77 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 286.77 Tm 0 Tr (    printf\("  [ 2 ]   Print List of trips\\n\\n"\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 298.11 Tm 0 Tr ( 90  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 298.11 Tm 0 Tr (    ) Tj  ET Q
-1.000 1.000 1.000 rg
-87.75 289.14 39.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 87.75 298.11 Tm 0 Tr (printf) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 127.35 298.11 Tm 0 Tr (\() Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 133.95 298.11 Tm 0 Tr ("  [ 3 ]   Print List of stations\\n\\n") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 384.75 298.11 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 298.11 Tm 0 Tr (    printf\("  [ 3 ]   Print List of stations\\n\\n"\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 309.45 Tm 0 Tr ( 91  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 309.45 Tm 0 Tr (    ) Tj  ET Q
-1.000 1.000 1.000 rg
-87.75 300.48 39.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 87.75 309.45 Tm 0 Tr (printf) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 127.35 309.45 Tm 0 Tr (\() Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 133.95 309.45 Tm 0 Tr ("  [ 4 ]   Print List of routes\\n\\n") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 371.55 309.45 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 309.45 Tm 0 Tr (    printf\("  [ 4 ]   Print List of routes\\n\\n"\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 320.78 Tm 0 Tr ( 92  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 320.78 Tm 0 Tr (    ) Tj  ET Q
-1.000 1.000 1.000 rg
-87.75 311.81 39.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 87.75 320.78 Tm 0 Tr (printf) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 127.35 320.78 Tm 0 Tr (\() Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 133.95 320.78 Tm 0 Tr ("  [ 5 ]   Print List of statistics\\n\\n") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 397.95 320.78 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 320.78 Tm 0 Tr (    printf\("  [ 5 ]   Print List of statistics\\n\\n"\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 332.12 Tm 0 Tr ( 93  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 332.12 Tm 0 Tr (    ) Tj  ET Q
-1.000 1.000 1.000 rg
-87.75 323.15 39.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 87.75 332.12 Tm 0 Tr (printf) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 127.35 332.12 Tm 0 Tr (\() Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 133.95 332.12 Tm 0 Tr ("  [ 6 ]   Quit\\n\\n") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 265.95 332.12 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 332.12 Tm 0 Tr (    printf\("  [ 6 ]   Quit\\n\\n"\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 343.46 Tm 0 Tr ( 94  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 343.46 Tm 0 Tr (    ) Tj  ET Q
-1.000 1.000 1.000 rg
-87.75 334.49 33.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 87.75 343.46 Tm 0 Tr (scanf) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 120.75 343.46 Tm 0 Tr (\() Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 127.35 343.46 Tm 0 Tr ("%d") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 153.75 343.46 Tm 0 Tr (, &) Tj  ET Q
-1.000 1.000 1.000 rg
-173.55 334.49 46.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 173.55 343.46 Tm 0 Tr (command) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 219.75 343.46 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 343.46 Tm 0 Tr (    scanf\("%d", &command\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 354.80 Tm 0 Tr ( 95  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 354.80 Tm 0 Tr (    ) Tj  ET Q
-1.000 1.000 1.000 rg
-87.75 345.83 105.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 87.75 354.80 Tm 0 Tr (clearInputBuffer) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 193.35 354.80 Tm 0 Tr (\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 354.80 Tm 0 Tr (    clearInputBuffer\(\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 366.14 Tm 0 Tr ( 96  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 366.14 Tm 0 Tr (    ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 87.75 366.14 Tm 0 Tr (switch ) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 133.95 366.14 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-140.55 357.17 46.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 140.55 366.14 Tm 0 Tr (command) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 186.75 366.14 Tm 0 Tr (\) {) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 366.14 Tm 0 Tr (    switch \(command\) {) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 377.48 Tm 0 Tr ( 97  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 377.48 Tm 0 Tr (        ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 114.15 377.48 Tm 0 Tr (case ) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 0.941 0.000 0.941 rg BT 1 0 0 -1 147.15 377.48 Tm 0 Tr (1) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 153.75 377.48 Tm 0 Tr (:) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 377.48 Tm 0 Tr (        case 1:) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 388.82 Tm 0 Tr ( 98  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 388.82 Tm 0 Tr (            ) Tj  ET Q
-1.000 1.000 1.000 rg
-140.55 379.85 92.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 140.55 388.82 Tm 0 Tr (selectDataMenu) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.95 388.82 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-239.55 379.85 59.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 239.55 388.82 Tm 0 Tr (tripsList) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 298.95 388.82 Tm 0 Tr (, ) Tj  ET Q
-1.000 1.000 1.000 rg
-312.15 379.85 79.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 312.15 388.82 Tm 0 Tr (stationsList) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 391.35 388.82 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 388.82 Tm 0 Tr (            selectDataMenu\(tripsList, stationsList\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 400.15 Tm 0 Tr ( 99  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 400.15 Tm 0 Tr (            ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 140.55 400.15 Tm 0 Tr (break) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 173.55 400.15 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 400.15 Tm 0 Tr (            break;) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 411.49 Tm 0 Tr (100  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 411.49 Tm 0 Tr (        ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 114.15 411.49 Tm 0 Tr (case ) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 0.941 0.000 0.941 rg BT 1 0 0 -1 147.15 411.49 Tm 0 Tr (2) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 153.75 411.49 Tm 0 Tr (:) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 411.49 Tm 0 Tr (        case 2:) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 422.83 Tm 0 Tr (101  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 422.83 Tm 0 Tr (            ) Tj  ET Q
-1.000 1.000 1.000 rg
-140.55 413.86 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 140.55 422.83 Tm 0 Tr (command ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 193.35 422.83 Tm 0 Tr (= -) Tj  ET Q
-q 0.941 0.000 0.941 rg BT 1 0 0 -1 213.15 422.83 Tm 0 Tr (1) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 219.75 422.83 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 422.83 Tm 0 Tr (            command = -1;) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 434.17 Tm 0 Tr (102  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 434.17 Tm 0 Tr (            ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 140.55 434.17 Tm 0 Tr (while ) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 180.15 434.17 Tm 0 Tr (\(\() Tj  ET Q
-1.000 1.000 1.000 rg
-193.35 425.20 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 193.35 434.17 Tm 0 Tr (command ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 246.15 434.17 Tm 0 Tr (< ) Tj  ET Q
-q 0.941 0.000 0.941 rg BT 1 0 0 -1 259.35 434.17 Tm 0 Tr (0) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 265.95 434.17 Tm 0 Tr (\) || \() Tj  ET Q
-1.000 1.000 1.000 rg
-305.55 425.20 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 305.55 434.17 Tm 0 Tr (command ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 358.35 434.17 Tm 0 Tr (> ) Tj  ET Q
-q 0.941 0.000 0.941 rg BT 1 0 0 -1 371.55 434.17 Tm 0 Tr (32000) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 404.55 434.17 Tm 0 Tr (\)\) {) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 434.17 Tm 0 Tr (            while \(\(command < 0\) || \(command > 32000\)\) {) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 445.51 Tm 0 Tr (103  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 445.51 Tm 0 Tr (                 ) Tj  ET Q
-1.000 1.000 1.000 rg
-173.55 436.54 39.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 173.55 445.51 Tm 0 Tr (printf) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 213.15 445.51 Tm 0 Tr (\() Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 219.75 445.51 Tm 0 Tr ("How many trips do you want to print?) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 445.51 Tm 0 Tr (                 printf\("How many trips do you want to print?"\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 456.85 Tm 0 Tr (104  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 456.85 Tm 0 Tr (                 ) Tj  ET Q
-1.000 1.000 1.000 rg
-173.55 447.88 39.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 173.55 456.85 Tm 0 Tr (printf) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 213.15 456.85 Tm 0 Tr (\() Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 219.75 456.85 Tm 0 Tr ("0..32000, enter 0 for all\)\\n") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 417.75 456.85 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 456.85 Tm 0 Tr (                 printf\("0..32000, enter 0 for all\)\\n"\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 468.19 Tm 0 Tr (105  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 468.19 Tm 0 Tr (                 ) Tj  ET Q
-1.000 1.000 1.000 rg
-173.55 459.22 33.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 173.55 468.19 Tm 0 Tr (scanf) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 206.55 468.19 Tm 0 Tr (\() Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 213.15 468.19 Tm 0 Tr ("%d") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 239.55 468.19 Tm 0 Tr (, &) Tj  ET Q
-1.000 1.000 1.000 rg
-259.35 459.22 46.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 259.35 468.19 Tm 0 Tr (command) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 305.55 468.19 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 468.19 Tm 0 Tr (                 scanf\("%d", &command\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 479.52 Tm 0 Tr (106  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 479.52 Tm 0 Tr (                 ) Tj  ET Q
-1.000 1.000 1.000 rg
-173.55 470.55 105.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 173.55 479.52 Tm 0 Tr (clearInputBuffer) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 279.15 479.52 Tm 0 Tr (\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 479.52 Tm 0 Tr (                 clearInputBuffer\(\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 490.86 Tm 0 Tr (107  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 490.86 Tm 0 Tr (            ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 140.55 490.86 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 490.86 Tm 0 Tr (            }) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 502.20 Tm 0 Tr (108  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 502.20 Tm 0 Tr (            ) Tj  ET Q
-1.000 1.000 1.000 rg
-140.55 493.23 92.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 140.55 502.20 Tm 0 Tr (printTripsList) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.95 502.20 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-239.55 493.23 59.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 239.55 502.20 Tm 0 Tr (tripsList) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 298.95 502.20 Tm 0 Tr (, ) Tj  ET Q
-1.000 1.000 1.000 rg
-312.15 493.23 46.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 312.15 502.20 Tm 0 Tr (command) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 358.35 502.20 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 502.20 Tm 0 Tr (            printTripsList\(tripsList, command\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 513.54 Tm 0 Tr (109  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 513.54 Tm 0 Tr (            ) Tj  ET Q
-1.000 1.000 1.000 rg
-140.55 504.57 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 140.55 513.54 Tm 0 Tr (mainMenu) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 193.35 513.54 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-199.95 504.57 59.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 199.95 513.54 Tm 0 Tr (tripsList) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 259.35 513.54 Tm 0 Tr (, ) Tj  ET Q
-1.000 1.000 1.000 rg
-272.55 504.57 79.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 272.55 513.54 Tm 0 Tr (stationsList) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 351.75 513.54 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 513.54 Tm 0 Tr (            mainMenu\(tripsList, stationsList\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 524.88 Tm 0 Tr (110  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 524.88 Tm 0 Tr (            ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 140.55 524.88 Tm 0 Tr (break) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 173.55 524.88 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 524.88 Tm 0 Tr (            break;) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 536.22 Tm 0 Tr (111  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 536.22 Tm 0 Tr (        ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 114.15 536.22 Tm 0 Tr (case ) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 0.941 0.000 0.941 rg BT 1 0 0 -1 147.15 536.22 Tm 0 Tr (3) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 153.75 536.22 Tm 0 Tr (:) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 536.22 Tm 0 Tr (        case 3:) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 547.56 Tm 0 Tr (112  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 547.56 Tm 0 Tr (            ) Tj  ET Q
-1.000 1.000 1.000 rg
-140.55 538.59 118.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 140.55 547.56 Tm 0 Tr (listOfStationsMenu) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 259.35 547.56 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-265.95 538.59 59.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 265.95 547.56 Tm 0 Tr (tripsList) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 325.35 547.56 Tm 0 Tr (, ) Tj  ET Q
-1.000 1.000 1.000 rg
-338.55 538.59 79.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 338.55 547.56 Tm 0 Tr (stationsList) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 417.75 547.56 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 547.56 Tm 0 Tr (            listOfStationsMenu\(tripsList, stationsList\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 558.89 Tm 0 Tr (113  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 558.89 Tm 0 Tr (            ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 140.55 558.89 Tm 0 Tr (break) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 173.55 558.89 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 558.89 Tm 0 Tr (            break;) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 570.23 Tm 0 Tr (114  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 570.23 Tm 0 Tr (        ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 114.15 570.23 Tm 0 Tr (case ) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 0.941 0.000 0.941 rg BT 1 0 0 -1 147.15 570.23 Tm 0 Tr (4) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 153.75 570.23 Tm 0 Tr (:) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 570.23 Tm 0 Tr (        case 4:) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 581.57 Tm 0 Tr (115  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 581.57 Tm 0 Tr (            ) Tj  ET Q
-1.000 1.000 1.000 rg
-140.55 572.60 112.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 140.55 581.57 Tm 0 Tr (selectStationMenu) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 252.75 581.57 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-259.35 572.60 79.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 259.35 581.57 Tm 0 Tr (stationsList) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 338.55 581.57 Tm 0 Tr (, ) Tj  ET Q
-1.000 1.000 1.000 rg
-351.75 572.60 59.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 351.75 581.57 Tm 0 Tr (tripsList) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 411.15 581.57 Tm 0 Tr (, ) Tj  ET Q
-q 0.941 0.000 0.941 rg BT 1 0 0 -1 424.35 581.57 Tm 0 Tr (0) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 430.95 581.57 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 581.57 Tm 0 Tr (            selectStationMenu\(stationsList, tripsList, 0\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 592.91 Tm 0 Tr (116  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 592.91 Tm 0 Tr (            ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 140.55 592.91 Tm 0 Tr (break) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 173.55 592.91 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 592.91 Tm 0 Tr (            break;) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 604.25 Tm 0 Tr (117  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 604.25 Tm 0 Tr (        ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 114.15 604.25 Tm 0 Tr (case ) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 0.941 0.000 0.941 rg BT 1 0 0 -1 147.15 604.25 Tm 0 Tr (5) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 153.75 604.25 Tm 0 Tr (:) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 604.25 Tm 0 Tr (        case 5:) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 615.59 Tm 0 Tr (118  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 615.59 Tm 0 Tr (            ) Tj  ET Q
-1.000 1.000 1.000 rg
-140.55 606.62 59.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 140.55 615.59 Tm 0 Tr (statsMenu) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 199.95 615.59 Tm 0 Tr (\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 615.59 Tm 0 Tr (            statsMenu\(\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 626.93 Tm 0 Tr (119  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 626.93 Tm 0 Tr (            ) Tj  ET Q
-1.000 1.000 1.000 rg
-140.55 617.96 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 140.55 626.93 Tm 0 Tr (mainMenu) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 193.35 626.93 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-199.95 617.96 59.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 199.95 626.93 Tm 0 Tr (tripsList) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 259.35 626.93 Tm 0 Tr (, ) Tj  ET Q
-1.000 1.000 1.000 rg
-272.55 617.96 79.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 272.55 626.93 Tm 0 Tr (stationsList) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 351.75 626.93 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 626.93 Tm 0 Tr (            mainMenu\(tripsList, stationsList\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 638.26 Tm 0 Tr (120  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 638.26 Tm 0 Tr (            ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 140.55 638.26 Tm 0 Tr (break) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 173.55 638.26 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 638.26 Tm 0 Tr (            break;) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 649.60 Tm 0 Tr (121  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 649.60 Tm 0 Tr (        ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 114.15 649.60 Tm 0 Tr (case ) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 0.941 0.000 0.941 rg BT 1 0 0 -1 147.15 649.60 Tm 0 Tr (6) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 153.75 649.60 Tm 0 Tr (:) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 649.60 Tm 0 Tr (        case 6:) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 660.94 Tm 0 Tr (122  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 660.94 Tm 0 Tr (            ) Tj  ET Q
-1.000 1.000 1.000 rg
-140.55 651.97 26.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 140.55 660.94 Tm 0 Tr (exit) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.95 660.94 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-173.55 651.97 79.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 173.55 660.94 Tm 0 Tr (EXIT_SUCCESS) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 252.75 660.94 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 660.94 Tm 0 Tr (            exit\(EXIT_SUCCESS\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 672.28 Tm 0 Tr (123  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 672.28 Tm 0 Tr (            ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 140.55 672.28 Tm 0 Tr (break) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 173.55 672.28 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 672.28 Tm 0 Tr (            break;) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 683.62 Tm 0 Tr (124  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 683.62 Tm 0 Tr (        ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 114.15 683.62 Tm 0 Tr (default) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 683.62 Tm 0 Tr (:) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 683.62 Tm 0 Tr (        default:) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 694.96 Tm 0 Tr (125  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 694.96 Tm 0 Tr (            ) Tj  ET Q
-1.000 1.000 1.000 rg
-140.55 685.99 39.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 140.55 694.96 Tm 0 Tr (printf) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 180.15 694.96 Tm 0 Tr (\() Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 186.75 694.96 Tm 0 Tr ("Error: invalid command...\\n") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 378.15 694.96 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 694.96 Tm 0 Tr (            printf\("Error: invalid command...\\n"\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 706.30 Tm 0 Tr (126  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 706.30 Tm 0 Tr (            ) Tj  ET Q
-1.000 1.000 1.000 rg
-140.55 697.33 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 140.55 706.30 Tm 0 Tr (mainMenu) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 193.35 706.30 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-199.95 697.33 59.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 199.95 706.30 Tm 0 Tr (tripsList) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 259.35 706.30 Tm 0 Tr (, ) Tj  ET Q
-1.000 1.000 1.000 rg
-272.55 697.33 79.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 272.55 706.30 Tm 0 Tr (stationsList) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 351.75 706.30 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 706.30 Tm 0 Tr (            mainMenu\(tripsList, stationsList\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 717.63 Tm 0 Tr (127  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 717.63 Tm 0 Tr (            ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 140.55 717.63 Tm 0 Tr (break) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 173.55 717.63 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 717.63 Tm 0 Tr (            break;) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 728.97 Tm 0 Tr (128  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 728.97 Tm 0 Tr (    ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 87.75 728.97 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 728.97 Tm 0 Tr (    }) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 740.31 Tm 0 Tr (129  ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 61.35 740.31 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 740.31 Tm 0 Tr (}) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 751.65 Tm 0 Tr (130  ) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 762.99 Tm 0 Tr (131  ) Tj  ET Q
-q 0.627 0.627 0.627 rg BT 1 0 0 -1 61.35 762.99 Tm 0 Tr (/* List of Stations Menu:   creates and prints the list of) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 762.99 Tm 0 Tr (/* List of Stations Menu:   creates and prints the list of) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 774.33 Tm 0 Tr (132  ) Tj  ET Q
-q 0.627 0.627 0.627 rg BT 1 0 0 -1 67.95 774.33 Tm 0 Tr (*                          stations with max/min/avg) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 774.33 Tm 0 Tr ( *                          stations with max/min/avg) Tj  ET Q
 Q
 
 endstream
@@ -772,7 +477,7 @@ endobj
 /Contents 8 0 R>>
 endobj
 8 0 obj
-<</Length 29595>>
+<</Length 11644>>
 stream
 q
 1.000 0.000 0.000 -1.000 0.000 841.890 cm
@@ -782,422 +487,130 @@ BT /F1 11.00 Tf ET
 0 G
 1.000 1.000 1.000 rg
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 37.32 Tm 0 Tr (133  ) Tj  ET Q
-q 0.627 0.627 0.627 rg BT 1 0 0 -1 67.95 37.32 Tm 0 Tr (* \\param tripList          the header of the trip list) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 37.32 Tm 0 Tr ( * \\param tripList          the header of the trip list) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 48.66 Tm 0 Tr (134  ) Tj  ET Q
-q 0.627 0.627 0.627 rg BT 1 0 0 -1 67.95 48.66 Tm 0 Tr (*                          \(usually the filtered list\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 48.66 Tm 0 Tr ( *                          \(usually the filtered list\)) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 60.00 Tm 0 Tr (135  ) Tj  ET Q
-q 0.627 0.627 0.627 rg BT 1 0 0 -1 67.95 60.00 Tm 0 Tr (* \\param stationsList      the header of the stations list) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 60.00 Tm 0 Tr ( * \\param stationsList      the header of the stations list) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 71.34 Tm 0 Tr (136  ) Tj  ET Q
-q 0.627 0.627 0.627 rg BT 1 0 0 -1 67.95 71.34 Tm 0 Tr (*/) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 71.34 Tm 0 Tr ( */) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 82.67 Tm 0 Tr (137  ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 61.35 82.67 Tm 0 Tr (void ) Tj  ET Q
-BT /F1 11.00 Tf ET
-1.000 1.000 1.000 rg
-94.35 73.70 118.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 94.35 82.67 Tm 0 Tr (listOfStationsMenu) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 213.15 82.67 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-219.75 73.70 33.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 219.75 82.67 Tm 0 Tr (Trip ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 252.75 82.67 Tm 0 Tr (* ) Tj  ET Q
-1.000 1.000 1.000 rg
-265.95 73.70 59.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 265.95 82.67 Tm 0 Tr (tripsList) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 325.35 82.67 Tm 0 Tr (, ) Tj  ET Q
-1.000 1.000 1.000 rg
-338.55 73.70 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 338.55 82.67 Tm 0 Tr (Station ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 391.35 82.67 Tm 0 Tr (* ) Tj  ET Q
-1.000 1.000 1.000 rg
-404.55 73.70 79.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 404.55 82.67 Tm 0 Tr (stationsList) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 483.75 82.67 Tm 0 Tr (\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 82.67 Tm 0 Tr (void listOfStationsMenu\(Trip * tripsList, Station * stationsList\){) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 94.01 Tm 0 Tr (138  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 94.01 Tm 0 Tr (    ) Tj  ET Q
-1.000 1.000 1.000 rg
-87.75 85.04 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 87.75 94.01 Tm 0 Tr (Station ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 140.55 94.01 Tm 0 Tr (* ) Tj  ET Q
-1.000 1.000 1.000 rg
-153.75 85.04 112.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 153.75 94.01 Tm 0 Tr (filteredStations ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 265.95 94.01 Tm 0 Tr (= ) Tj  ET Q
-1.000 1.000 1.000 rg
-279.15 85.04 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 279.15 94.01 Tm 0 Tr (countBikes) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 345.15 94.01 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-351.75 85.04 59.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 351.75 94.01 Tm 0 Tr (tripsList) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 411.15 94.01 Tm 0 Tr (,) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 94.01 Tm 0 Tr (    Station * filteredStations = countBikes\(tripsList,) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 105.35 Tm 0 Tr (139  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 105.35 Tm 0 Tr (        ) Tj  ET Q
-1.000 1.000 1.000 rg
-114.15 96.38 79.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 114.15 105.35 Tm 0 Tr (stationsList) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 193.35 105.35 Tm 0 Tr (, ) Tj  ET Q
-1.000 1.000 1.000 rg
-206.55 96.38 112.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 206.55 105.35 Tm 0 Tr (filter_hour_start) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 318.75 105.35 Tm 0 Tr (, ) Tj  ET Q
-1.000 1.000 1.000 rg
-331.95 96.38 99.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 331.95 105.35 Tm 0 Tr (filter_hour_end) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 430.95 105.35 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 105.35 Tm 0 Tr (        stationsList, filter_hour_start, filter_hour_end\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 116.69 Tm 0 Tr (140  ) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 128.03 Tm 0 Tr (141  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 128.03 Tm 0 Tr (    ) Tj  ET Q
-q 0.745 0.745 0.902 rg BT 1 0 0 -1 87.75 128.03 Tm 0 Tr (// option to ask the user: limit \(0 for all\),) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 128.03 Tm 0 Tr (    // option to ask the user: limit \(0 for all\),) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 139.37 Tm 0 Tr (142  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 139.37 Tm 0 Tr (    ) Tj  ET Q
-q 0.745 0.745 0.902 rg BT 1 0 0 -1 87.75 139.37 Tm 0 Tr (//should print stations with no trips \(YES, NO\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 139.37 Tm 0 Tr (    //should print stations with no trips \(YES, NO\)) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 150.71 Tm 0 Tr (143  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 150.71 Tm 0 Tr (    ) Tj  ET Q
-1.000 1.000 1.000 rg
-87.75 141.74 112.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 87.75 150.71 Tm 0 Tr (printStationsList) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 199.95 150.71 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-206.55 141.74 105.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 206.55 150.71 Tm 0 Tr (filteredStations) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 312.15 150.71 Tm 0 Tr (, ) Tj  ET Q
-q 0.941 0.000 0.941 rg BT 1 0 0 -1 325.35 150.71 Tm 0 Tr (0) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 331.95 150.71 Tm 0 Tr (, ) Tj  ET Q
-1.000 1.000 1.000 rg
-345.15 141.74 19.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 345.15 150.71 Tm 0 Tr (YES) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 364.95 150.71 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 150.71 Tm 0 Tr (    printStationsList\(filteredStations, 0, YES\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 162.04 Tm 0 Tr (144  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 162.04 Tm 0 Tr (    ) Tj  ET Q
-1.000 1.000 1.000 rg
-87.75 153.07 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 87.75 162.04 Tm 0 Tr (mainMenu) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 140.55 162.04 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-147.15 153.07 59.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 147.15 162.04 Tm 0 Tr (tripsList) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 206.55 162.04 Tm 0 Tr (, ) Tj  ET Q
-1.000 1.000 1.000 rg
-219.75 153.07 79.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 219.75 162.04 Tm 0 Tr (stationsList) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 298.95 162.04 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 162.04 Tm 0 Tr (    mainMenu\(tripsList, stationsList\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 173.38 Tm 0 Tr (145  ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 61.35 173.38 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 173.38 Tm 0 Tr (}) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 184.72 Tm 0 Tr (146  ) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 196.06 Tm 0 Tr (147  ) Tj  ET Q
-q 0.627 0.627 0.627 rg BT 1 0 0 -1 61.35 196.06 Tm 0 Tr (/* SelectDataMenu: prints and manages the menu to set) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 196.06 Tm 0 Tr (/* SelectDataMenu: prints and manages the menu to set) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 207.40 Tm 0 Tr (148  ) Tj  ET Q
-q 0.627 0.627 0.627 rg BT 1 0 0 -1 61.35 207.40 Tm 0 Tr (*                  search criteria) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 207.40 Tm 0 Tr (*                  search criteria) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 218.74 Tm 0 Tr (149  ) Tj  ET Q
-q 0.627 0.627 0.627 rg BT 1 0 0 -1 67.95 218.74 Tm 0 Tr (* \\param filteredTrips     the header of the trip list) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 218.74 Tm 0 Tr ( * \\param filteredTrips     the header of the trip list) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 230.08 Tm 0 Tr (150  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 230.08 Tm 0 Tr (                            ) Tj  ET Q
-q 0.627 0.627 0.627 rg BT 1 0 0 -1 246.15 230.08 Tm 0 Tr (\(can be the filtered list\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 230.08 Tm 0 Tr (                            \(can be the filtered list\)) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 241.41 Tm 0 Tr (151  ) Tj  ET Q
-q 0.627 0.627 0.627 rg BT 1 0 0 -1 67.95 241.41 Tm 0 Tr (* \\param allStations       the header of all stations list) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 241.41 Tm 0 Tr ( * \\param allStations       the header of all stations list) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 252.75 Tm 0 Tr (152  ) Tj  ET Q
-q 0.627 0.627 0.627 rg BT 1 0 0 -1 67.95 252.75 Tm 0 Tr (*/) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 252.75 Tm 0 Tr ( */) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 264.09 Tm 0 Tr (153  ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 61.35 264.09 Tm 0 Tr (void ) Tj  ET Q
-BT /F1 11.00 Tf ET
-1.000 1.000 1.000 rg
-94.35 255.12 92.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 94.35 264.09 Tm 0 Tr (selectDataMenu) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 186.75 264.09 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-193.35 255.12 33.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 193.35 264.09 Tm 0 Tr (Trip ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 264.09 Tm 0 Tr (* ) Tj  ET Q
-1.000 1.000 1.000 rg
-239.55 255.12 85.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 239.55 264.09 Tm 0 Tr (filteredTrips) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 325.35 264.09 Tm 0 Tr (, ) Tj  ET Q
-1.000 1.000 1.000 rg
-338.55 255.12 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 338.55 264.09 Tm 0 Tr (Station ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 391.35 264.09 Tm 0 Tr (* ) Tj  ET Q
-1.000 1.000 1.000 rg
-404.55 255.12 72.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 404.55 264.09 Tm 0 Tr (allStations) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 477.15 264.09 Tm 0 Tr (\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 264.09 Tm 0 Tr (void selectDataMenu\(Trip * filteredTrips, Station * allStations\){) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 275.43 Tm 0 Tr (154  ) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 286.77 Tm 0 Tr (155  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 286.77 Tm 0 Tr (    ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 87.75 286.77 Tm 0 Tr (int ) Tj  ET Q
-BT /F1 11.00 Tf ET
-1.000 1.000 1.000 rg
-114.15 277.80 59.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 114.15 286.77 Tm 0 Tr (duration ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 173.55 286.77 Tm 0 Tr (= -) Tj  ET Q
-q 0.941 0.000 0.941 rg BT 1 0 0 -1 193.35 286.77 Tm 0 Tr (1) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 199.95 286.77 Tm 0 Tr (, ) Tj  ET Q
-1.000 1.000 1.000 rg
-213.15 277.80 46.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 213.15 286.77 Tm 0 Tr (command) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 259.35 286.77 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 286.77 Tm 0 Tr (    int duration = -1, command;) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 298.11 Tm 0 Tr (156  ) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 309.45 Tm 0 Tr (157  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 309.45 Tm 0 Tr (    ) Tj  ET Q
-1.000 1.000 1.000 rg
-87.75 300.48 39.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 87.75 309.45 Tm 0 Tr (printf) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 127.35 309.45 Tm 0 Tr (\() Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 133.95 309.45 Tm 0 Tr ("\\n * Select the mode of your search * \\n\\n") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 424.35 309.45 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 309.45 Tm 0 Tr (    printf\("\\n * Select the mode of your search * \\n\\n"\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 320.78 Tm 0 Tr (158  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 320.78 Tm 0 Tr (    ) Tj  ET Q
-1.000 1.000 1.000 rg
-87.75 311.81 39.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 87.75 320.78 Tm 0 Tr (printf) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 127.35 320.78 Tm 0 Tr (\() Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 133.95 320.78 Tm 0 Tr ("  [ 1 ]   Period of time \(hour start, hour end\)\\n\\n") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 483.75 320.78 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 320.78 Tm 0 Tr (    printf\("  [ 1 ]   Period of time \(hour start, hour end\)\\n\\n"\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 332.12 Tm 0 Tr (159  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 332.12 Tm 0 Tr (    ) Tj  ET Q
-1.000 1.000 1.000 rg
-87.75 323.15 39.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 87.75 332.12 Tm 0 Tr (printf) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 127.35 332.12 Tm 0 Tr (\() Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 133.95 332.12 Tm 0 Tr ("  [ 2 ]   Day of week\\n\\n") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 312.15 332.12 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 332.12 Tm 0 Tr (    printf\("  [ 2 ]   Day of week\\n\\n"\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 343.46 Tm 0 Tr (160  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 343.46 Tm 0 Tr (    ) Tj  ET Q
-1.000 1.000 1.000 rg
-87.75 334.49 39.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 87.75 343.46 Tm 0 Tr (printf) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 127.35 343.46 Tm 0 Tr (\() Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 133.95 343.46 Tm 0 Tr ("  [ 3 ]   Max duration of trip \(in seconds\)\\n\\n") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 457.35 343.46 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 343.46 Tm 0 Tr (    printf\("  [ 3 ]   Max duration of trip \(in seconds\)\\n\\n"\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 354.80 Tm 0 Tr (161  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 354.80 Tm 0 Tr (    ) Tj  ET Q
-1.000 1.000 1.000 rg
-87.75 345.83 39.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 87.75 354.80 Tm 0 Tr (printf) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 127.35 354.80 Tm 0 Tr (\() Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 133.95 354.80 Tm 0 Tr ("  [ 4 ]   New Search \(reset list\)\\n\\n") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 391.35 354.80 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 354.80 Tm 0 Tr (    printf\("  [ 4 ]   New Search \(reset list\)\\n\\n"\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 366.14 Tm 0 Tr (162  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 366.14 Tm 0 Tr (    ) Tj  ET Q
-1.000 1.000 1.000 rg
-87.75 357.17 39.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 87.75 366.14 Tm 0 Tr (printf) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 127.35 366.14 Tm 0 Tr (\() Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 133.95 366.14 Tm 0 Tr ("  [ 5 ]   Return to Main Menu\\n\\n") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 364.95 366.14 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 366.14 Tm 0 Tr (    printf\("  [ 5 ]   Return to Main Menu\\n\\n"\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 377.48 Tm 0 Tr (163  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 377.48 Tm 0 Tr (    ) Tj  ET Q
-1.000 1.000 1.000 rg
-87.75 368.51 33.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 87.75 377.48 Tm 0 Tr (scanf) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 120.75 377.48 Tm 0 Tr (\() Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 127.35 377.48 Tm 0 Tr ("%d") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 153.75 377.48 Tm 0 Tr (, &) Tj  ET Q
-1.000 1.000 1.000 rg
-173.55 368.51 46.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 173.55 377.48 Tm 0 Tr (command) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 219.75 377.48 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 377.48 Tm 0 Tr (    scanf\("%d", &command\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 388.82 Tm 0 Tr (164  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 388.82 Tm 0 Tr (    ) Tj  ET Q
-1.000 1.000 1.000 rg
-87.75 379.85 105.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 87.75 388.82 Tm 0 Tr (clearInputBuffer) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 193.35 388.82 Tm 0 Tr (\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 388.82 Tm 0 Tr (    clearInputBuffer\(\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 400.15 Tm 0 Tr (165  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 400.15 Tm 0 Tr (    ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 87.75 400.15 Tm 0 Tr (switch ) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 133.95 400.15 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-140.55 391.18 46.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 140.55 400.15 Tm 0 Tr (command) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 186.75 400.15 Tm 0 Tr (\) {) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 400.15 Tm 0 Tr (    switch \(command\) {) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 411.49 Tm 0 Tr (166  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 411.49 Tm 0 Tr (        ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 114.15 411.49 Tm 0 Tr (case ) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 0.941 0.000 0.941 rg BT 1 0 0 -1 147.15 411.49 Tm 0 Tr (1) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 153.75 411.49 Tm 0 Tr (:) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 411.49 Tm 0 Tr (        case 1:) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 422.83 Tm 0 Tr (167  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 422.83 Tm 0 Tr (            ) Tj  ET Q
-1.000 1.000 1.000 rg
-140.55 413.86 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 140.55 422.83 Tm 0 Tr (command ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 193.35 422.83 Tm 0 Tr (= -) Tj  ET Q
-q 0.941 0.000 0.941 rg BT 1 0 0 -1 213.15 422.83 Tm 0 Tr (1) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 219.75 422.83 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 422.83 Tm 0 Tr (            command = -1;) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 434.17 Tm 0 Tr (168  ) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 445.51 Tm 0 Tr (169  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 445.51 Tm 0 Tr (            ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 140.55 445.51 Tm 0 Tr (while ) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 180.15 445.51 Tm 0 Tr (\(\() Tj  ET Q
-1.000 1.000 1.000 rg
-193.35 436.54 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 193.35 445.51 Tm 0 Tr (command ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 246.15 445.51 Tm 0 Tr (< ) Tj  ET Q
-q 0.941 0.000 0.941 rg BT 1 0 0 -1 259.35 445.51 Tm 0 Tr (0) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 265.95 445.51 Tm 0 Tr (\) || \() Tj  ET Q
-1.000 1.000 1.000 rg
-305.55 436.54 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 305.55 445.51 Tm 0 Tr (command ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 358.35 445.51 Tm 0 Tr (> ) Tj  ET Q
-q 0.941 0.000 0.941 rg BT 1 0 0 -1 371.55 445.51 Tm 0 Tr (23) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 384.75 445.51 Tm 0 Tr (\)\) {) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 445.51 Tm 0 Tr (            while \(\(command < 0\) || \(command > 23\)\) {) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 456.85 Tm 0 Tr (170  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 456.85 Tm 0 Tr (                ) Tj  ET Q
-1.000 1.000 1.000 rg
-166.95 447.88 39.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.95 456.85 Tm 0 Tr (printf) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 206.55 456.85 Tm 0 Tr (\() Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 213.15 456.85 Tm 0 Tr ("Insert start time of trip \(hour 0..23\):\\n") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 496.95 456.85 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 456.85 Tm 0 Tr (                printf\("Insert start time of trip \(hour 0..23\):\\n"\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 468.19 Tm 0 Tr (171  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 468.19 Tm 0 Tr (                ) Tj  ET Q
-1.000 1.000 1.000 rg
-166.95 459.22 33.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.95 468.19 Tm 0 Tr (scanf) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 199.95 468.19 Tm 0 Tr (\() Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 206.55 468.19 Tm 0 Tr ("%d") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.95 468.19 Tm 0 Tr (, &) Tj  ET Q
-1.000 1.000 1.000 rg
-252.75 459.22 46.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 252.75 468.19 Tm 0 Tr (command) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 298.95 468.19 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 468.19 Tm 0 Tr (                scanf\("%d", &command\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 479.52 Tm 0 Tr (172  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 479.52 Tm 0 Tr (                ) Tj  ET Q
-1.000 1.000 1.000 rg
-166.95 470.55 105.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.95 479.52 Tm 0 Tr (clearInputBuffer) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 272.55 479.52 Tm 0 Tr (\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 479.52 Tm 0 Tr (                clearInputBuffer\(\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 490.86 Tm 0 Tr (173  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 490.86 Tm 0 Tr (            ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 140.55 490.86 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 490.86 Tm 0 Tr (            }) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 502.20 Tm 0 Tr (174  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 502.20 Tm 0 Tr (            ) Tj  ET Q
-q 0.745 0.745 0.902 rg BT 1 0 0 -1 140.55 502.20 Tm 0 Tr (// temporary place to store start time cannot) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 502.20 Tm 0 Tr (            // temporary place to store start time cannot) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 513.54 Tm 0 Tr (175  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 513.54 Tm 0 Tr (            ) Tj  ET Q
-q 0.745 0.745 0.902 rg BT 1 0 0 -1 140.55 513.54 Tm 0 Tr (//overwrite the global now) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 513.54 Tm 0 Tr (            //overwrite the global now) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 524.88 Tm 0 Tr (176  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 524.88 Tm 0 Tr (            ) Tj  ET Q
-q 0.745 0.745 0.902 rg BT 1 0 0 -1 140.55 524.88 Tm 0 Tr (// because we use it to understand if user has) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 524.88 Tm 0 Tr (            // because we use it to understand if user has) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 536.22 Tm 0 Tr (177  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 536.22 Tm 0 Tr (            ) Tj  ET Q
-q 0.745 0.745 0.902 rg BT 1 0 0 -1 140.55 536.22 Tm 0 Tr (//used the filter before, later in the code) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 536.22 Tm 0 Tr (            //used the filter before, later in the code) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 547.56 Tm 0 Tr (178  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 547.56 Tm 0 Tr (            ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 140.55 547.56 Tm 0 Tr (int ) Tj  ET Q
-BT /F1 11.00 Tf ET
-1.000 1.000 1.000 rg
-166.95 538.59 39.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.95 547.56 Tm 0 Tr (start ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 206.55 547.56 Tm 0 Tr (= ) Tj  ET Q
-1.000 1.000 1.000 rg
-219.75 538.59 46.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 219.75 547.56 Tm 0 Tr (command) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 265.95 547.56 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 547.56 Tm 0 Tr (            int start = command;) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 558.89 Tm 0 Tr (179  ) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 570.23 Tm 0 Tr (180  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 570.23 Tm 0 Tr (            ) Tj  ET Q
-1.000 1.000 1.000 rg
-140.55 561.26 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 140.55 570.23 Tm 0 Tr (command ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 193.35 570.23 Tm 0 Tr (= -) Tj  ET Q
-q 0.941 0.000 0.941 rg BT 1 0 0 -1 213.15 570.23 Tm 0 Tr (1) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 219.75 570.23 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 570.23 Tm 0 Tr (            command = -1;) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 581.57 Tm 0 Tr (181  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 581.57 Tm 0 Tr (            ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 140.55 581.57 Tm 0 Tr (while ) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 180.15 581.57 Tm 0 Tr (\(\() Tj  ET Q
-1.000 1.000 1.000 rg
-193.35 572.60 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 193.35 581.57 Tm 0 Tr (command ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 246.15 581.57 Tm 0 Tr (< ) Tj  ET Q
-q 0.941 0.000 0.941 rg BT 1 0 0 -1 259.35 581.57 Tm 0 Tr (0) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 265.95 581.57 Tm 0 Tr (\) || \() Tj  ET Q
-1.000 1.000 1.000 rg
-305.55 572.60 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 305.55 581.57 Tm 0 Tr (command ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 358.35 581.57 Tm 0 Tr (> ) Tj  ET Q
-q 0.941 0.000 0.941 rg BT 1 0 0 -1 371.55 581.57 Tm 0 Tr (23) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 384.75 581.57 Tm 0 Tr (\)\) {) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 581.57 Tm 0 Tr (            while \(\(command < 0\) || \(command > 23\)\) {) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 592.91 Tm 0 Tr (182  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 592.91 Tm 0 Tr (                ) Tj  ET Q
-1.000 1.000 1.000 rg
-166.95 583.94 39.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.95 592.91 Tm 0 Tr (printf) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 206.55 592.91 Tm 0 Tr (\() Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 213.15 592.91 Tm 0 Tr ("Insert end time of trip \(hour 0..23\):\\n") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 483.75 592.91 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 592.91 Tm 0 Tr (                printf\("Insert end time of trip \(hour 0..23\):\\n"\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 604.25 Tm 0 Tr (183  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 604.25 Tm 0 Tr (                ) Tj  ET Q
-1.000 1.000 1.000 rg
-166.95 595.28 33.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.95 604.25 Tm 0 Tr (scanf) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 199.95 604.25 Tm 0 Tr (\() Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 206.55 604.25 Tm 0 Tr ("%d") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.95 604.25 Tm 0 Tr (, &) Tj  ET Q
-1.000 1.000 1.000 rg
-252.75 595.28 46.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 252.75 604.25 Tm 0 Tr (command) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 298.95 604.25 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 604.25 Tm 0 Tr (                scanf\("%d", &command\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 615.59 Tm 0 Tr (184  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 615.59 Tm 0 Tr (                ) Tj  ET Q
-1.000 1.000 1.000 rg
-166.95 606.62 105.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.95 615.59 Tm 0 Tr (clearInputBuffer) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 272.55 615.59 Tm 0 Tr (\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 615.59 Tm 0 Tr (                clearInputBuffer\(\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 626.93 Tm 0 Tr (185  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 626.93 Tm 0 Tr (            ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 140.55 626.93 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 626.93 Tm 0 Tr (            }) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 638.26 Tm 0 Tr (186  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 638.26 Tm 0 Tr (            ) Tj  ET Q
-1.000 1.000 1.000 rg
-140.55 629.29 105.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 140.55 638.26 Tm 0 Tr (filter_hour_end ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 246.15 638.26 Tm 0 Tr (= ) Tj  ET Q
-1.000 1.000 1.000 rg
-259.35 629.29 46.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 259.35 638.26 Tm 0 Tr (command) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 305.55 638.26 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 638.26 Tm 0 Tr (            filter_hour_end = command;) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 649.60 Tm 0 Tr (187  ) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 660.94 Tm 0 Tr (188  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 660.94 Tm 0 Tr (            ) Tj  ET Q
-q 0.745 0.745 0.902 rg BT 1 0 0 -1 140.55 660.94 Tm 0 Tr (// if user had filtered the list before,) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 660.94 Tm 0 Tr (            // if user had filtered the list before,) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 672.28 Tm 0 Tr (189  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 672.28 Tm 0 Tr (            ) Tj  ET Q
-q 0.745 0.745 0.902 rg BT 1 0 0 -1 140.55 672.28 Tm 0 Tr (// reset the list to avoid problems) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 672.28 Tm 0 Tr (            // reset the list to avoid problems) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 683.62 Tm 0 Tr (190  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 683.62 Tm 0 Tr (            ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 140.55 683.62 Tm 0 Tr (if ) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 683.62 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-166.95 674.65 118.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.95 683.62 Tm 0 Tr (filter_hour_start ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 285.75 683.62 Tm 0 Tr (!= -) Tj  ET Q
-q 0.941 0.000 0.941 rg BT 1 0 0 -1 312.15 683.62 Tm 0 Tr (1) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 318.75 683.62 Tm 0 Tr (\) {) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 683.62 Tm 0 Tr (            if \(filter_hour_start != -1\) {) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 694.96 Tm 0 Tr (191  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 694.96 Tm 0 Tr (                ) Tj  ET Q
-q 0.745 0.745 0.902 rg BT 1 0 0 -1 166.95 694.96 Tm 0 Tr (// now we can save the start time) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 694.96 Tm 0 Tr (                // now we can save the start time) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 706.30 Tm 0 Tr (192  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 706.30 Tm 0 Tr (                ) Tj  ET Q
-1.000 1.000 1.000 rg
-166.95 697.33 118.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.95 706.30 Tm 0 Tr (filter_hour_start ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 285.75 706.30 Tm 0 Tr (= ) Tj  ET Q
-1.000 1.000 1.000 rg
-298.95 697.33 33.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 298.95 706.30 Tm 0 Tr (start) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 331.95 706.30 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 706.30 Tm 0 Tr (                filter_hour_start = start;) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 717.63 Tm 0 Tr (193  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 717.63 Tm 0 Tr (                ) Tj  ET Q
-1.000 1.000 1.000 rg
-166.95 708.66 33.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.95 717.63 Tm 0 Tr (Trip ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 199.95 717.63 Tm 0 Tr (* ) Tj  ET Q
-1.000 1.000 1.000 rg
-213.15 708.66 59.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 213.15 717.63 Tm 0 Tr (allTrips ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 272.55 717.63 Tm 0 Tr (= ) Tj  ET Q
-1.000 1.000 1.000 rg
-285.75 708.66 85.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 285.75 717.63 Tm 0 Tr (readTripsData) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 371.55 717.63 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-378.15 708.66 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 378.15 717.63 Tm 0 Tr (trips_file) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 444.15 717.63 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 717.63 Tm 0 Tr (                Trip * allTrips = readTripsData\(trips_file\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 728.97 Tm 0 Tr (194  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 728.97 Tm 0 Tr (                ) Tj  ET Q
-1.000 1.000 1.000 rg
-166.95 720.00 39.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.95 728.97 Tm 0 Tr (printf) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 206.55 728.97 Tm 0 Tr (\() Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 213.15 728.97 Tm 0 Tr ("Note: a time filter was already applied.\\n) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 728.97 Tm 0 Tr (                printf\("Note: a time filter was already applied.\\n"\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 740.31 Tm 0 Tr (195  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 740.31 Tm 0 Tr (                ) Tj  ET Q
-1.000 1.000 1.000 rg
-166.95 731.34 39.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.95 740.31 Tm 0 Tr (printf) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 206.55 740.31 Tm 0 Tr (\() Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 213.15 740.31 Tm 0 Tr ("The trip list was reset to use the new param.\\n") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 536.55 740.31 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 740.31 Tm 0 Tr (                printf\("The trip list was reset to use the new param.\\n"\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 751.65 Tm 0 Tr (196  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 751.65 Tm 0 Tr (                ) Tj  ET Q
-1.000 1.000 1.000 rg
-166.95 742.68 92.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.95 751.65 Tm 0 Tr (filteredTrips ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 259.35 751.65 Tm 0 Tr (= ) Tj  ET Q
-1.000 1.000 1.000 rg
-272.55 742.68 112.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 272.55 751.65 Tm 0 Tr (selectTripsByTime) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 384.75 751.65 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-391.35 742.68 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 391.35 751.65 Tm 0 Tr (allTrips) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 444.15 751.65 Tm 0 Tr (,) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 751.65 Tm 0 Tr (                filteredTrips = selectTripsByTime\(allTrips,) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 762.99 Tm 0 Tr (197  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 762.99 Tm 0 Tr (                                ) Tj  ET Q
-1.000 1.000 1.000 rg
-272.55 754.02 112.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 272.55 762.99 Tm 0 Tr (filter_hour_start) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 384.75 762.99 Tm 0 Tr (, ) Tj  ET Q
-1.000 1.000 1.000 rg
-397.95 754.02 99.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 397.95 762.99 Tm 0 Tr (filter_hour_end) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 496.95 762.99 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 762.99 Tm 0 Tr (                                filter_hour_start, filter_hour_end\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 774.33 Tm 0 Tr (198  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 774.33 Tm 0 Tr (            ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 140.55 774.33 Tm 0 Tr (} ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 153.75 774.33 Tm 0 Tr (else ) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 186.75 774.33 Tm 0 Tr ({) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 774.33 Tm 0 Tr (            } else {) Tj  ET Q
 Q
 
 endstream
@@ -1210,7 +623,7 @@ endobj
 /Contents 10 0 R>>
 endobj
 10 0 obj
-<</Length 35256>>
+<</Length 11871>>
 stream
 q
 1.000 0.000 0.000 -1.000 0.000 841.890 cm
@@ -1220,527 +633,136 @@ BT /F1 11.00 Tf ET
 0 G
 1.000 1.000 1.000 rg
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 37.32 Tm 0 Tr (199  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 37.32 Tm 0 Tr (                ) Tj  ET Q
-1.000 1.000 1.000 rg
-166.95 28.35 118.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.95 37.32 Tm 0 Tr (filter_hour_start ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 285.75 37.32 Tm 0 Tr (= ) Tj  ET Q
-1.000 1.000 1.000 rg
-298.95 28.35 33.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 298.95 37.32 Tm 0 Tr (start) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 331.95 37.32 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 37.32 Tm 0 Tr (                filter_hour_start = start;) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 48.66 Tm 0 Tr (200  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 48.66 Tm 0 Tr (                ) Tj  ET Q
-1.000 1.000 1.000 rg
-166.95 39.69 92.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.95 48.66 Tm 0 Tr (filteredTrips ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 259.35 48.66 Tm 0 Tr (= ) Tj  ET Q
-1.000 1.000 1.000 rg
-272.55 39.69 112.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 272.55 48.66 Tm 0 Tr (selectTripsByTime) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 384.75 48.66 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-391.35 39.69 85.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 391.35 48.66 Tm 0 Tr (filteredTrips) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 477.15 48.66 Tm 0 Tr (,) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 48.66 Tm 0 Tr (                filteredTrips = selectTripsByTime\(filteredTrips,) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 60.00 Tm 0 Tr (201  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 60.00 Tm 0 Tr (                                ) Tj  ET Q
-1.000 1.000 1.000 rg
-272.55 51.03 112.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 272.55 60.00 Tm 0 Tr (filter_hour_start) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 384.75 60.00 Tm 0 Tr (, ) Tj  ET Q
-1.000 1.000 1.000 rg
-397.95 51.03 99.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 397.95 60.00 Tm 0 Tr (filter_hour_end) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 496.95 60.00 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 60.00 Tm 0 Tr (                                filter_hour_start, filter_hour_end\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 71.34 Tm 0 Tr (202  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 71.34 Tm 0 Tr (            ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 140.55 71.34 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 71.34 Tm 0 Tr (            }) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 82.67 Tm 0 Tr (203  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 82.67 Tm 0 Tr (            ) Tj  ET Q
-1.000 1.000 1.000 rg
-140.55 73.70 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 140.55 82.67 Tm 0 Tr (mainMenu) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 193.35 82.67 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-199.95 73.70 85.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 199.95 82.67 Tm 0 Tr (filteredTrips) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 285.75 82.67 Tm 0 Tr (, ) Tj  ET Q
-1.000 1.000 1.000 rg
-298.95 73.70 72.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 298.95 82.67 Tm 0 Tr (allStations) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 371.55 82.67 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 82.67 Tm 0 Tr (            mainMenu\(filteredTrips, allStations\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 94.01 Tm 0 Tr (204  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 94.01 Tm 0 Tr (            ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 140.55 94.01 Tm 0 Tr (break) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 173.55 94.01 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 94.01 Tm 0 Tr (            break;) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 105.35 Tm 0 Tr (205  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 105.35 Tm 0 Tr (        ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 114.15 105.35 Tm 0 Tr (case ) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 0.941 0.000 0.941 rg BT 1 0 0 -1 147.15 105.35 Tm 0 Tr (2) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 153.75 105.35 Tm 0 Tr (:) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 105.35 Tm 0 Tr (        case 2:) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 116.69 Tm 0 Tr (206  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 116.69 Tm 0 Tr (            ) Tj  ET Q
-1.000 1.000 1.000 rg
-140.55 107.72 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 140.55 116.69 Tm 0 Tr (command ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 193.35 116.69 Tm 0 Tr (= ) Tj  ET Q
-q 0.941 0.000 0.941 rg BT 1 0 0 -1 206.55 116.69 Tm 0 Tr (0) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 213.15 116.69 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 116.69 Tm 0 Tr (            command = 0;) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 128.03 Tm 0 Tr (207  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 128.03 Tm 0 Tr (            ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 140.55 128.03 Tm 0 Tr (while ) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 180.15 128.03 Tm 0 Tr (\(\() Tj  ET Q
-1.000 1.000 1.000 rg
-193.35 119.06 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 193.35 128.03 Tm 0 Tr (command ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 246.15 128.03 Tm 0 Tr (< ) Tj  ET Q
-q 0.941 0.000 0.941 rg BT 1 0 0 -1 259.35 128.03 Tm 0 Tr (1) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 265.95 128.03 Tm 0 Tr (\) || \() Tj  ET Q
-1.000 1.000 1.000 rg
-305.55 119.06 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 305.55 128.03 Tm 0 Tr (command ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 358.35 128.03 Tm 0 Tr (> ) Tj  ET Q
-q 0.941 0.000 0.941 rg BT 1 0 0 -1 371.55 128.03 Tm 0 Tr (7) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 378.15 128.03 Tm 0 Tr (\)\) {) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 128.03 Tm 0 Tr (            while \(\(command < 1\) || \(command > 7\)\) {) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 139.37 Tm 0 Tr (208  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 139.37 Tm 0 Tr (                ) Tj  ET Q
-1.000 1.000 1.000 rg
-166.95 130.40 39.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.95 139.37 Tm 0 Tr (printf) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 206.55 139.37 Tm 0 Tr (\() Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 213.15 139.37 Tm 0 Tr ("\\nPlease insert the day of trip:\\n\\n") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 463.95 139.37 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 139.37 Tm 0 Tr (                printf\("\\nPlease insert the day of trip:\\n\\n"\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 150.71 Tm 0 Tr (209  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 150.71 Tm 0 Tr (                ) Tj  ET Q
-1.000 1.000 1.000 rg
-166.95 141.74 39.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.95 150.71 Tm 0 Tr (printf) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 206.55 150.71 Tm 0 Tr (\() Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 213.15 150.71 Tm 0 Tr ("  [ 1 ]   Monday\\n") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 345.15 150.71 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 150.71 Tm 0 Tr (                printf\("  [ 1 ]   Monday\\n"\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 162.04 Tm 0 Tr (210  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 162.04 Tm 0 Tr (                ) Tj  ET Q
-1.000 1.000 1.000 rg
-166.95 153.07 39.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.95 162.04 Tm 0 Tr (printf) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 206.55 162.04 Tm 0 Tr (\() Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 213.15 162.04 Tm 0 Tr ("  [ 2 ]   Tuesday\\n") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 351.75 162.04 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 162.04 Tm 0 Tr (                printf\("  [ 2 ]   Tuesday\\n"\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 173.38 Tm 0 Tr (211  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 173.38 Tm 0 Tr (                ) Tj  ET Q
-1.000 1.000 1.000 rg
-166.95 164.41 39.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.95 173.38 Tm 0 Tr (printf) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 206.55 173.38 Tm 0 Tr (\() Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 213.15 173.38 Tm 0 Tr ("  [ 3 ]   Wednesday\\n") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 364.95 173.38 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 173.38 Tm 0 Tr (                printf\("  [ 3 ]   Wednesday\\n"\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 184.72 Tm 0 Tr (212  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 184.72 Tm 0 Tr (                ) Tj  ET Q
-1.000 1.000 1.000 rg
-166.95 175.75 39.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.95 184.72 Tm 0 Tr (printf) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 206.55 184.72 Tm 0 Tr (\() Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 213.15 184.72 Tm 0 Tr ("  [ 4 ]   Thursday\\n") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 358.35 184.72 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 184.72 Tm 0 Tr (                printf\("  [ 4 ]   Thursday\\n"\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 196.06 Tm 0 Tr (213  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 196.06 Tm 0 Tr (                ) Tj  ET Q
-1.000 1.000 1.000 rg
-166.95 187.09 39.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.95 196.06 Tm 0 Tr (printf) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 206.55 196.06 Tm 0 Tr (\() Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 213.15 196.06 Tm 0 Tr ("  [ 5 ]   Friday\\n") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 345.15 196.06 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 196.06 Tm 0 Tr (                printf\("  [ 5 ]   Friday\\n"\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 207.40 Tm 0 Tr (214  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 207.40 Tm 0 Tr (                ) Tj  ET Q
-1.000 1.000 1.000 rg
-166.95 198.43 39.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.95 207.40 Tm 0 Tr (printf) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 206.55 207.40 Tm 0 Tr (\() Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 213.15 207.40 Tm 0 Tr ("  [ 6 ]   Saturday\\n") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 358.35 207.40 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 207.40 Tm 0 Tr (                printf\("  [ 6 ]   Saturday\\n"\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 218.74 Tm 0 Tr (215  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 218.74 Tm 0 Tr (                ) Tj  ET Q
-1.000 1.000 1.000 rg
-166.95 209.77 39.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.95 218.74 Tm 0 Tr (printf) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 206.55 218.74 Tm 0 Tr (\() Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 213.15 218.74 Tm 0 Tr ("  [ 7 ]   Sunday\\n") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 345.15 218.74 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 218.74 Tm 0 Tr (                printf\("  [ 7 ]   Sunday\\n"\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 230.08 Tm 0 Tr (216  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 230.08 Tm 0 Tr (                ) Tj  ET Q
-1.000 1.000 1.000 rg
-166.95 221.11 33.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.95 230.08 Tm 0 Tr (scanf) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 199.95 230.08 Tm 0 Tr (\() Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 206.55 230.08 Tm 0 Tr ("%d") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.95 230.08 Tm 0 Tr (, &) Tj  ET Q
-1.000 1.000 1.000 rg
-252.75 221.11 46.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 252.75 230.08 Tm 0 Tr (command) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 298.95 230.08 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 230.08 Tm 0 Tr (                scanf\("%d", &command\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 241.41 Tm 0 Tr (217  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 241.41 Tm 0 Tr (                ) Tj  ET Q
-1.000 1.000 1.000 rg
-166.95 232.44 105.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.95 241.41 Tm 0 Tr (clearInputBuffer) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 272.55 241.41 Tm 0 Tr (\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 241.41 Tm 0 Tr (                clearInputBuffer\(\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 252.75 Tm 0 Tr (218  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 252.75 Tm 0 Tr (            ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 140.55 252.75 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 252.75 Tm 0 Tr (            }) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 264.09 Tm 0 Tr (219  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 264.09 Tm 0 Tr (            ) Tj  ET Q
-1.000 1.000 1.000 rg
-140.55 255.12 92.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 140.55 264.09 Tm 0 Tr (filteredTrips ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.95 264.09 Tm 0 Tr (= ) Tj  ET Q
-1.000 1.000 1.000 rg
-246.15 255.12 105.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 246.15 264.09 Tm 0 Tr (selectTripsByDay) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 351.75 264.09 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-358.35 255.12 85.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 358.35 264.09 Tm 0 Tr (filteredTrips) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 444.15 264.09 Tm 0 Tr (, ) Tj  ET Q
-1.000 1.000 1.000 rg
-457.35 255.12 46.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 457.35 264.09 Tm 0 Tr (command) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 503.55 264.09 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 264.09 Tm 0 Tr (            filteredTrips = selectTripsByDay\(filteredTrips, command\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 275.43 Tm 0 Tr (220  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 275.43 Tm 0 Tr (            ) Tj  ET Q
-1.000 1.000 1.000 rg
-140.55 266.46 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 140.55 275.43 Tm 0 Tr (mainMenu) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 193.35 275.43 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-199.95 266.46 85.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 199.95 275.43 Tm 0 Tr (filteredTrips) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 285.75 275.43 Tm 0 Tr (, ) Tj  ET Q
-1.000 1.000 1.000 rg
-298.95 266.46 72.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 298.95 275.43 Tm 0 Tr (allStations) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 371.55 275.43 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 275.43 Tm 0 Tr (            mainMenu\(filteredTrips, allStations\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 286.77 Tm 0 Tr (221  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 286.77 Tm 0 Tr (            ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 140.55 286.77 Tm 0 Tr (break) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 173.55 286.77 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 286.77 Tm 0 Tr (            break;) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 298.11 Tm 0 Tr (222  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 298.11 Tm 0 Tr (        ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 114.15 298.11 Tm 0 Tr (case ) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 0.941 0.000 0.941 rg BT 1 0 0 -1 147.15 298.11 Tm 0 Tr (3) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 153.75 298.11 Tm 0 Tr (:) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 298.11 Tm 0 Tr (        case 3:) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 309.45 Tm 0 Tr (223  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 309.45 Tm 0 Tr (            ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 140.55 309.45 Tm 0 Tr (while ) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 180.15 309.45 Tm 0 Tr (\(\() Tj  ET Q
-1.000 1.000 1.000 rg
-193.35 300.48 59.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 193.35 309.45 Tm 0 Tr (duration ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 252.75 309.45 Tm 0 Tr (< ) Tj  ET Q
-q 0.941 0.000 0.941 rg BT 1 0 0 -1 265.95 309.45 Tm 0 Tr (0) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 272.55 309.45 Tm 0 Tr (\) || \() Tj  ET Q
-1.000 1.000 1.000 rg
-312.15 300.48 59.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 312.15 309.45 Tm 0 Tr (duration ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 371.55 309.45 Tm 0 Tr (> ) Tj  ET Q
-q 0.941 0.000 0.941 rg BT 1 0 0 -1 384.75 309.45 Tm 0 Tr (32767) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 417.75 309.45 Tm 0 Tr (\)\) {) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 309.45 Tm 0 Tr (            while \(\(duration < 0\) || \(duration > 32767\)\) {) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 320.78 Tm 0 Tr (224  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 320.78 Tm 0 Tr (                ) Tj  ET Q
-1.000 1.000 1.000 rg
-166.95 311.81 39.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.95 320.78 Tm 0 Tr (printf) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 206.55 320.78 Tm 0 Tr (\() Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 213.15 320.78 Tm 0 Tr ("Insert the max duration of trip \(in seconds\):\\n") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 536.55 320.78 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 320.78 Tm 0 Tr (                printf\("Insert the max duration of trip \(in seconds\):\\n"\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 332.12 Tm 0 Tr (225  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 332.12 Tm 0 Tr (                ) Tj  ET Q
-1.000 1.000 1.000 rg
-166.95 323.15 33.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.95 332.12 Tm 0 Tr (scanf) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 199.95 332.12 Tm 0 Tr (\() Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 206.55 332.12 Tm 0 Tr ("%d") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.95 332.12 Tm 0 Tr (, &) Tj  ET Q
-1.000 1.000 1.000 rg
-252.75 323.15 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 252.75 332.12 Tm 0 Tr (duration) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 305.55 332.12 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 332.12 Tm 0 Tr (                scanf\("%d", &duration\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 343.46 Tm 0 Tr (226  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 343.46 Tm 0 Tr (                ) Tj  ET Q
-1.000 1.000 1.000 rg
-166.95 334.49 105.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.95 343.46 Tm 0 Tr (clearInputBuffer) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 272.55 343.46 Tm 0 Tr (\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 343.46 Tm 0 Tr (                clearInputBuffer\(\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 354.80 Tm 0 Tr (227  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 354.80 Tm 0 Tr (            ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 140.55 354.80 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 354.80 Tm 0 Tr (            }) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 366.14 Tm 0 Tr (228  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 366.14 Tm 0 Tr (            ) Tj  ET Q
-1.000 1.000 1.000 rg
-140.55 357.17 92.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 140.55 366.14 Tm 0 Tr (filteredTrips ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.95 366.14 Tm 0 Tr (= ) Tj  ET Q
-1.000 1.000 1.000 rg
-246.15 357.17 138.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 246.15 366.14 Tm 0 Tr (selectTripsByDuration) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 384.75 366.14 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-391.35 357.17 85.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 391.35 366.14 Tm 0 Tr (filteredTrips) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 477.15 366.14 Tm 0 Tr (,) Tj  ET Q
-1.000 1.000 1.000 rg
-483.75 357.17 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 483.75 366.14 Tm 0 Tr (duration) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 536.55 366.14 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 366.14 Tm 0 Tr (            filteredTrips = selectTripsByDuration\(filteredTrips,duration\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 377.48 Tm 0 Tr (229  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 377.48 Tm 0 Tr (            ) Tj  ET Q
-1.000 1.000 1.000 rg
-140.55 368.51 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 140.55 377.48 Tm 0 Tr (mainMenu) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 193.35 377.48 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-199.95 368.51 85.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 199.95 377.48 Tm 0 Tr (filteredTrips) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 285.75 377.48 Tm 0 Tr (, ) Tj  ET Q
-1.000 1.000 1.000 rg
-298.95 368.51 72.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 298.95 377.48 Tm 0 Tr (allStations) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 371.55 377.48 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 377.48 Tm 0 Tr (            mainMenu\(filteredTrips, allStations\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 388.82 Tm 0 Tr (230  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 388.82 Tm 0 Tr (            ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 140.55 388.82 Tm 0 Tr (break) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 173.55 388.82 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 388.82 Tm 0 Tr (            break;) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 400.15 Tm 0 Tr (231  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 400.15 Tm 0 Tr (        ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 114.15 400.15 Tm 0 Tr (case ) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 0.941 0.000 0.941 rg BT 1 0 0 -1 147.15 400.15 Tm 0 Tr (4) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 153.75 400.15 Tm 0 Tr (:) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 400.15 Tm 0 Tr (        case 4:) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 411.49 Tm 0 Tr (232  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 411.49 Tm 0 Tr (            ) Tj  ET Q
-1.000 1.000 1.000 rg
-140.55 402.52 105.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 140.55 411.49 Tm 0 Tr (filter_hour_end ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 246.15 411.49 Tm 0 Tr (= -) Tj  ET Q
-q 0.941 0.000 0.941 rg BT 1 0 0 -1 265.95 411.49 Tm 0 Tr (1) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 272.55 411.49 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 411.49 Tm 0 Tr (            filter_hour_end = -1;) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 422.83 Tm 0 Tr (233  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 422.83 Tm 0 Tr (            ) Tj  ET Q
-1.000 1.000 1.000 rg
-140.55 413.86 118.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 140.55 422.83 Tm 0 Tr (filter_hour_start ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 259.35 422.83 Tm 0 Tr (= -) Tj  ET Q
-q 0.941 0.000 0.941 rg BT 1 0 0 -1 279.15 422.83 Tm 0 Tr (1) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 285.75 422.83 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 422.83 Tm 0 Tr (            filter_hour_start = -1;) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 434.17 Tm 0 Tr (234  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 434.17 Tm 0 Tr (            ) Tj  ET Q
-1.000 1.000 1.000 rg
-140.55 425.20 33.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 140.55 434.17 Tm 0 Tr (Trip ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 173.55 434.17 Tm 0 Tr (* ) Tj  ET Q
-1.000 1.000 1.000 rg
-186.75 425.20 59.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 186.75 434.17 Tm 0 Tr (allTrips ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 246.15 434.17 Tm 0 Tr (= ) Tj  ET Q
-1.000 1.000 1.000 rg
-259.35 425.20 85.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 259.35 434.17 Tm 0 Tr (readTripsData) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 345.15 434.17 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-351.75 425.20 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 351.75 434.17 Tm 0 Tr (trips_file) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 417.75 434.17 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 434.17 Tm 0 Tr (            Trip * allTrips = readTripsData\(trips_file\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 445.51 Tm 0 Tr (235  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 445.51 Tm 0 Tr (            ) Tj  ET Q
-1.000 1.000 1.000 rg
-140.55 436.54 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 140.55 445.51 Tm 0 Tr (mainMenu) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 193.35 445.51 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-199.95 436.54 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 199.95 445.51 Tm 0 Tr (allTrips) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 252.75 445.51 Tm 0 Tr (, ) Tj  ET Q
-1.000 1.000 1.000 rg
-265.95 436.54 72.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 265.95 445.51 Tm 0 Tr (allStations) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 338.55 445.51 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 445.51 Tm 0 Tr (            mainMenu\(allTrips, allStations\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 456.85 Tm 0 Tr (236  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 456.85 Tm 0 Tr (            ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 140.55 456.85 Tm 0 Tr (break) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 173.55 456.85 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 456.85 Tm 0 Tr (            break;) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 468.19 Tm 0 Tr (237  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 468.19 Tm 0 Tr (        ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 114.15 468.19 Tm 0 Tr (case ) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 0.941 0.000 0.941 rg BT 1 0 0 -1 147.15 468.19 Tm 0 Tr (5) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 153.75 468.19 Tm 0 Tr (:) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 468.19 Tm 0 Tr (        case 5:) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 479.52 Tm 0 Tr (238  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 479.52 Tm 0 Tr (            ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 140.55 479.52 Tm 0 Tr (if ) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 479.52 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-166.95 470.55 92.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.95 479.52 Tm 0 Tr (filteredTrips ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 259.35 479.52 Tm 0 Tr (!= ) Tj  ET Q
-1.000 1.000 1.000 rg
-279.15 470.55 26.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 279.15 479.52 Tm 0 Tr (NULL) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 305.55 479.52 Tm 0 Tr (\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 479.52 Tm 0 Tr (            if \(filteredTrips != NULL\)) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 490.86 Tm 0 Tr (239  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 490.86 Tm 0 Tr (                ) Tj  ET Q
-1.000 1.000 1.000 rg
-166.95 481.89 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.95 490.86 Tm 0 Tr (mainMenu) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 219.75 490.86 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-226.35 481.89 85.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 226.35 490.86 Tm 0 Tr (filteredTrips) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 312.15 490.86 Tm 0 Tr (, ) Tj  ET Q
-1.000 1.000 1.000 rg
-325.35 481.89 72.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 325.35 490.86 Tm 0 Tr (allStations) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 397.95 490.86 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 490.86 Tm 0 Tr (                mainMenu\(filteredTrips, allStations\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 502.20 Tm 0 Tr (240  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 502.20 Tm 0 Tr (            ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 140.55 502.20 Tm 0 Tr (else ) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 173.55 502.20 Tm 0 Tr ({) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 502.20 Tm 0 Tr (            else {) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 513.54 Tm 0 Tr (241  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 513.54 Tm 0 Tr (                ) Tj  ET Q
-1.000 1.000 1.000 rg
-166.95 504.57 33.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.95 513.54 Tm 0 Tr (Trip ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 199.95 513.54 Tm 0 Tr (* ) Tj  ET Q
-1.000 1.000 1.000 rg
-213.15 504.57 59.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 213.15 513.54 Tm 0 Tr (allTrips ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 272.55 513.54 Tm 0 Tr (= ) Tj  ET Q
-1.000 1.000 1.000 rg
-285.75 504.57 85.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 285.75 513.54 Tm 0 Tr (readTripsData) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 371.55 513.54 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-378.15 504.57 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 378.15 513.54 Tm 0 Tr (trips_file) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 444.15 513.54 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 513.54 Tm 0 Tr (                Trip * allTrips = readTripsData\(trips_file\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 524.88 Tm 0 Tr (242  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 524.88 Tm 0 Tr (                ) Tj  ET Q
-1.000 1.000 1.000 rg
-166.95 515.91 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.95 524.88 Tm 0 Tr (mainMenu) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 219.75 524.88 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-226.35 515.91 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 226.35 524.88 Tm 0 Tr (allTrips) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 279.15 524.88 Tm 0 Tr (, ) Tj  ET Q
-1.000 1.000 1.000 rg
-292.35 515.91 72.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 292.35 524.88 Tm 0 Tr (allStations) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 364.95 524.88 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 524.88 Tm 0 Tr (                mainMenu\(allTrips, allStations\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 536.22 Tm 0 Tr (243  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 536.22 Tm 0 Tr (            ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 140.55 536.22 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 536.22 Tm 0 Tr (            }) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 547.56 Tm 0 Tr (244  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 547.56 Tm 0 Tr (            ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 140.55 547.56 Tm 0 Tr (break) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 173.55 547.56 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 547.56 Tm 0 Tr (            break;) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 558.89 Tm 0 Tr (245  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 558.89 Tm 0 Tr (        ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 114.15 558.89 Tm 0 Tr (default) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 558.89 Tm 0 Tr (:) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 558.89 Tm 0 Tr (        default:) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 570.23 Tm 0 Tr (246  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 570.23 Tm 0 Tr (            ) Tj  ET Q
-1.000 1.000 1.000 rg
-140.55 561.26 39.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 140.55 570.23 Tm 0 Tr (printf) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 180.15 570.23 Tm 0 Tr (\() Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 186.75 570.23 Tm 0 Tr ("Error: invalid command...\\n") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 378.15 570.23 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 570.23 Tm 0 Tr (            printf\("Error: invalid command...\\n"\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 581.57 Tm 0 Tr (247  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 581.57 Tm 0 Tr (            ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 140.55 581.57 Tm 0 Tr (if ) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 581.57 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-166.95 572.60 92.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.95 581.57 Tm 0 Tr (filteredTrips ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 259.35 581.57 Tm 0 Tr (!= ) Tj  ET Q
-1.000 1.000 1.000 rg
-279.15 572.60 26.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 279.15 581.57 Tm 0 Tr (NULL) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 305.55 581.57 Tm 0 Tr (\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 581.57 Tm 0 Tr (            if \(filteredTrips != NULL\)) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 592.91 Tm 0 Tr (248  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 592.91 Tm 0 Tr (                ) Tj  ET Q
-1.000 1.000 1.000 rg
-166.95 583.94 92.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.95 592.91 Tm 0 Tr (selectDataMenu) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 259.35 592.91 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-265.95 583.94 85.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 265.95 592.91 Tm 0 Tr (filteredTrips) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 351.75 592.91 Tm 0 Tr (, ) Tj  ET Q
-1.000 1.000 1.000 rg
-364.95 583.94 72.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 364.95 592.91 Tm 0 Tr (allStations) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 437.55 592.91 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 592.91 Tm 0 Tr (                selectDataMenu\(filteredTrips, allStations\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 604.25 Tm 0 Tr (249  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 604.25 Tm 0 Tr (            ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 140.55 604.25 Tm 0 Tr (else ) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 173.55 604.25 Tm 0 Tr ({) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 604.25 Tm 0 Tr (            else {) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 615.59 Tm 0 Tr (250  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 615.59 Tm 0 Tr (                ) Tj  ET Q
-1.000 1.000 1.000 rg
-166.95 606.62 33.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.95 615.59 Tm 0 Tr (Trip ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 199.95 615.59 Tm 0 Tr (* ) Tj  ET Q
-1.000 1.000 1.000 rg
-213.15 606.62 59.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 213.15 615.59 Tm 0 Tr (allTrips ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 272.55 615.59 Tm 0 Tr (= ) Tj  ET Q
-1.000 1.000 1.000 rg
-285.75 606.62 85.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 285.75 615.59 Tm 0 Tr (readTripsData) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 371.55 615.59 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-378.15 606.62 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 378.15 615.59 Tm 0 Tr (trips_file) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 444.15 615.59 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 615.59 Tm 0 Tr (                Trip * allTrips = readTripsData\(trips_file\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 626.93 Tm 0 Tr (251  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 626.93 Tm 0 Tr (                ) Tj  ET Q
-1.000 1.000 1.000 rg
-166.95 617.96 92.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.95 626.93 Tm 0 Tr (selectDataMenu) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 259.35 626.93 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-265.95 617.96 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 265.95 626.93 Tm 0 Tr (allTrips) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 318.75 626.93 Tm 0 Tr (, ) Tj  ET Q
-1.000 1.000 1.000 rg
-331.95 617.96 72.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 331.95 626.93 Tm 0 Tr (allStations) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 404.55 626.93 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 626.93 Tm 0 Tr (                selectDataMenu\(allTrips, allStations\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 638.26 Tm 0 Tr (252  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 638.26 Tm 0 Tr (            ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 140.55 638.26 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 638.26 Tm 0 Tr (            }) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 649.60 Tm 0 Tr (253  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 649.60 Tm 0 Tr (            ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 140.55 649.60 Tm 0 Tr (break) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 173.55 649.60 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 649.60 Tm 0 Tr (            break;) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 660.94 Tm 0 Tr (254  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 660.94 Tm 0 Tr (    ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 87.75 660.94 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 660.94 Tm 0 Tr (    }) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 672.28 Tm 0 Tr (255  ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 61.35 672.28 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 672.28 Tm 0 Tr (}) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 683.62 Tm 0 Tr (256  ) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 694.96 Tm 0 Tr (257  ) Tj  ET Q
-q 0.627 0.627 0.627 rg BT 1 0 0 -1 61.35 694.96 Tm 0 Tr (/* selectStationMenu:) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 694.96 Tm 0 Tr (/* selectStationMenu:) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 706.30 Tm 0 Tr (258  ) Tj  ET Q
-q 0.627 0.627 0.627 rg BT 1 0 0 -1 67.95 706.30 Tm 0 Tr (* \\param allStations      the header of all stations list) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 706.30 Tm 0 Tr ( * \\param allStations      the header of all stations list) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 717.63 Tm 0 Tr (259  ) Tj  ET Q
-q 0.627 0.627 0.627 rg BT 1 0 0 -1 67.95 717.63 Tm 0 Tr (* \\param filteredTrips    the header of the trips list \(can be filtered\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 717.63 Tm 0 Tr ( * \\param filteredTrips    the header of the trips list \(can be filtered\)) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 728.97 Tm 0 Tr (260  ) Tj  ET Q
-q 0.627 0.627 0.627 rg BT 1 0 0 -1 67.95 728.97 Tm 0 Tr (* \\param id               the ID of the station) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 728.97 Tm 0 Tr ( * \\param id               the ID of the station) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 740.31 Tm 0 Tr (261  ) Tj  ET Q
-q 0.627 0.627 0.627 rg BT 1 0 0 -1 67.95 740.31 Tm 0 Tr (*/) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 740.31 Tm 0 Tr ( */) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 751.65 Tm 0 Tr (262  ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 61.35 751.65 Tm 0 Tr (void ) Tj  ET Q
-BT /F1 11.00 Tf ET
-1.000 1.000 1.000 rg
-94.35 742.68 112.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 94.35 751.65 Tm 0 Tr (selectStationMenu) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 206.55 751.65 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-213.15 742.68 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 213.15 751.65 Tm 0 Tr (Station ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 265.95 751.65 Tm 0 Tr (* ) Tj  ET Q
-1.000 1.000 1.000 rg
-279.15 742.68 72.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 279.15 751.65 Tm 0 Tr (allStations) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 351.75 751.65 Tm 0 Tr (,) Tj  ET Q
-1.000 1.000 1.000 rg
-358.35 742.68 33.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 358.35 751.65 Tm 0 Tr (Trip ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 391.35 751.65 Tm 0 Tr (* ) Tj  ET Q
-1.000 1.000 1.000 rg
-404.55 742.68 85.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 404.55 751.65 Tm 0 Tr (filteredTrips) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 490.35 751.65 Tm 0 Tr (,) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 496.95 751.65 Tm 0 Tr (int ) Tj  ET Q
-BT /F1 11.00 Tf ET
-1.000 1.000 1.000 rg
-523.35 742.68 13.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 523.35 751.65 Tm 0 Tr (id) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 536.55 751.65 Tm 0 Tr (\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 751.65 Tm 0 Tr (void selectStationMenu\(Station * allStations,Trip * filteredTrips,int id\){) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 762.99 Tm 0 Tr (263  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 762.99 Tm 0 Tr (    ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 87.75 762.99 Tm 0 Tr (int ) Tj  ET Q
-BT /F1 11.00 Tf ET
-1.000 1.000 1.000 rg
-114.15 754.02 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 114.15 762.99 Tm 0 Tr (command ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.95 762.99 Tm 0 Tr (= -) Tj  ET Q
-q 0.941 0.000 0.941 rg BT 1 0 0 -1 186.75 762.99 Tm 0 Tr (1) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 193.35 762.99 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 762.99 Tm 0 Tr (    int command = -1;) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 774.33 Tm 0 Tr (264  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 774.33 Tm 0 Tr (    ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 87.75 774.33 Tm 0 Tr (char ) Tj  ET Q
-BT /F1 11.00 Tf ET
-1.000 1.000 1.000 rg
-120.75 765.36 72.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 120.75 774.33 Tm 0 Tr (stationName) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 193.35 774.33 Tm 0 Tr ([) Tj  ET Q
-q 0.941 0.000 0.941 rg BT 1 0 0 -1 199.95 774.33 Tm 0 Tr (7) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 206.55 774.33 Tm 0 Tr (] = ) Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 232.95 774.33 Tm 0 Tr ("") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 246.15 774.33 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 774.33 Tm 0 Tr (    char stationName[7] = "";) Tj  ET Q
 Q
 
 endstream
@@ -1753,7 +775,7 @@ endobj
 /Contents 12 0 R>>
 endobj
 12 0 obj
-<</Length 17753>>
+<</Length 6717>>
 stream
 q
 1.000 0.000 0.000 -1.000 0.000 841.890 cm
@@ -1764,264 +786,81 @@ BT /F1 11.00 Tf ET
 1.000 1.000 1.000 rg
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 37.32 Tm 0 Tr (265  ) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 48.66 Tm 0 Tr (266  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 48.66 Tm 0 Tr (    ) Tj  ET Q
-q 0.745 0.745 0.902 rg BT 1 0 0 -1 87.75 48.66 Tm 0 Tr (// validate id of station) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 48.66 Tm 0 Tr (    // validate id of station) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 60.00 Tm 0 Tr (267  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 60.00 Tm 0 Tr (    ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 87.75 60.00 Tm 0 Tr (while ) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 127.35 60.00 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-133.95 51.03 39.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 133.95 60.00 Tm 0 Tr (strcmp) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 173.55 60.00 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-180.15 51.03 72.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 180.15 60.00 Tm 0 Tr (stationName) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 252.75 60.00 Tm 0 Tr (, ) Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 265.95 60.00 Tm 0 Tr ("") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 279.15 60.00 Tm 0 Tr (\) == ) Tj  ET Q
-q 0.941 0.000 0.941 rg BT 1 0 0 -1 312.15 60.00 Tm 0 Tr (0) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 318.75 60.00 Tm 0 Tr (\) {) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 60.00 Tm 0 Tr (    while \(strcmp\(stationName, ""\) == 0\) {) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 71.34 Tm 0 Tr (268  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 71.34 Tm 0 Tr (        ) Tj  ET Q
-1.000 1.000 1.000 rg
-114.15 62.37 39.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 114.15 71.34 Tm 0 Tr (printf) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 153.75 71.34 Tm 0 Tr (\() Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 160.35 71.34 Tm 0 Tr ("Insert the id of the station:\\n") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 378.15 71.34 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 71.34 Tm 0 Tr (        printf\("Insert the id of the station:\\n"\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 82.67 Tm 0 Tr (269  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 82.67 Tm 0 Tr (        ) Tj  ET Q
-1.000 1.000 1.000 rg
-114.15 73.70 33.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 114.15 82.67 Tm 0 Tr (scanf) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 147.15 82.67 Tm 0 Tr (\() Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 153.75 82.67 Tm 0 Tr ("%d") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 180.15 82.67 Tm 0 Tr (, &) Tj  ET Q
-1.000 1.000 1.000 rg
-199.95 73.70 13.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 199.95 82.67 Tm 0 Tr (id) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 213.15 82.67 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 82.67 Tm 0 Tr (        scanf\("%d", &id\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 94.01 Tm 0 Tr (270  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 94.01 Tm 0 Tr (        ) Tj  ET Q
-1.000 1.000 1.000 rg
-114.15 85.04 105.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 114.15 94.01 Tm 0 Tr (clearInputBuffer) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 219.75 94.01 Tm 0 Tr (\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 94.01 Tm 0 Tr (        clearInputBuffer\(\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 105.35 Tm 0 Tr (271  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 105.35 Tm 0 Tr (        ) Tj  ET Q
-1.000 1.000 1.000 rg
-114.15 96.38 39.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 114.15 105.35 Tm 0 Tr (strcpy) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 153.75 105.35 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-160.35 96.38 72.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 160.35 105.35 Tm 0 Tr (stationName) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.95 105.35 Tm 0 Tr (, ) Tj  ET Q
-1.000 1.000 1.000 rg
-246.15 96.38 118.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 246.15 105.35 Tm 0 Tr (getStationNameById) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 364.95 105.35 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-371.55 96.38 13.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 371.55 105.35 Tm 0 Tr (id) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 384.75 105.35 Tm 0 Tr (, ) Tj  ET Q
-1.000 1.000 1.000 rg
-397.95 96.38 72.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 397.95 105.35 Tm 0 Tr (allStations) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 470.55 105.35 Tm 0 Tr (\)\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 105.35 Tm 0 Tr (        strcpy\(stationName, getStationNameById\(id, allStations\)\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 116.69 Tm 0 Tr (272  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 116.69 Tm 0 Tr (    ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 87.75 116.69 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 116.69 Tm 0 Tr (    }) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 128.03 Tm 0 Tr (273  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 128.03 Tm 0 Tr (    ) Tj  ET Q
-1.000 1.000 1.000 rg
-87.75 119.06 92.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 87.75 128.03 Tm 0 Tr (filteredTrips ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 180.15 128.03 Tm 0 Tr (= ) Tj  ET Q
-1.000 1.000 1.000 rg
-193.35 119.06 145.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 193.35 128.03 Tm 0 Tr (selectTripsByIdStation) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 338.55 128.03 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-345.15 119.06 85.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 345.15 128.03 Tm 0 Tr (filteredTrips) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 430.95 128.03 Tm 0 Tr (, ) Tj  ET Q
-1.000 1.000 1.000 rg
-444.15 119.06 13.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 444.15 128.03 Tm 0 Tr (id) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 457.35 128.03 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 128.03 Tm 0 Tr (    filteredTrips = selectTripsByIdStation\(filteredTrips, id\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 139.37 Tm 0 Tr (274  ) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 150.71 Tm 0 Tr (275  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 150.71 Tm 0 Tr (    ) Tj  ET Q
-1.000 1.000 1.000 rg
-87.75 141.74 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 87.75 150.71 Tm 0 Tr (command ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 140.55 150.71 Tm 0 Tr (= -) Tj  ET Q
-q 0.941 0.000 0.941 rg BT 1 0 0 -1 160.35 150.71 Tm 0 Tr (1) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.95 150.71 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 150.71 Tm 0 Tr (    command = -1;) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 162.04 Tm 0 Tr (276  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 162.04 Tm 0 Tr (    ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 87.75 162.04 Tm 0 Tr (while ) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 127.35 162.04 Tm 0 Tr (\(\() Tj  ET Q
-1.000 1.000 1.000 rg
-140.55 153.07 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 140.55 162.04 Tm 0 Tr (command ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 193.35 162.04 Tm 0 Tr (<) Tj  ET Q
-q 0.941 0.000 0.941 rg BT 1 0 0 -1 199.95 162.04 Tm 0 Tr (0) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 206.55 162.04 Tm 0 Tr (\) || \() Tj  ET Q
-1.000 1.000 1.000 rg
-246.15 153.07 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 246.15 162.04 Tm 0 Tr (command ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 298.95 162.04 Tm 0 Tr (> ) Tj  ET Q
-q 0.941 0.000 0.941 rg BT 1 0 0 -1 312.15 162.04 Tm 0 Tr (32767) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 345.15 162.04 Tm 0 Tr (\)\) {) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 162.04 Tm 0 Tr (    while \(\(command <0\) || \(command > 32767\)\) {) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 173.38 Tm 0 Tr (277  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 173.38 Tm 0 Tr (        ) Tj  ET Q
-1.000 1.000 1.000 rg
-114.15 164.41 39.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 114.15 173.38 Tm 0 Tr (printf) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 153.75 173.38 Tm 0 Tr (\() Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 160.35 173.38 Tm 0 Tr ("How many routes do yo want to print? \(0 for all\)\\n") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 503.55 173.38 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 173.38 Tm 0 Tr (        printf\("How many routes do yo want to print? \(0 for all\)\\n"\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 184.72 Tm 0 Tr (278  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 184.72 Tm 0 Tr (        ) Tj  ET Q
-1.000 1.000 1.000 rg
-114.15 175.75 33.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 114.15 184.72 Tm 0 Tr (scanf) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 147.15 184.72 Tm 0 Tr (\() Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 153.75 184.72 Tm 0 Tr ("%d") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 180.15 184.72 Tm 0 Tr (, &) Tj  ET Q
-1.000 1.000 1.000 rg
-199.95 175.75 46.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 199.95 184.72 Tm 0 Tr (command) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 246.15 184.72 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 184.72 Tm 0 Tr (        scanf\("%d", &command\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 196.06 Tm 0 Tr (279  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 196.06 Tm 0 Tr (        ) Tj  ET Q
-1.000 1.000 1.000 rg
-114.15 187.09 105.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 114.15 196.06 Tm 0 Tr (clearInputBuffer) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 219.75 196.06 Tm 0 Tr (\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 196.06 Tm 0 Tr (        clearInputBuffer\(\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 207.40 Tm 0 Tr (280  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 207.40 Tm 0 Tr (    ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 87.75 207.40 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 207.40 Tm 0 Tr (    }) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 218.74 Tm 0 Tr (281  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 218.74 Tm 0 Tr (    ) Tj  ET Q
-1.000 1.000 1.000 rg
-87.75 209.77 99.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 87.75 218.74 Tm 0 Tr (printRoutesList) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 186.75 218.74 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-193.35 209.77 85.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 193.35 218.74 Tm 0 Tr (filteredTrips) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 279.15 218.74 Tm 0 Tr (, ) Tj  ET Q
-1.000 1.000 1.000 rg
-292.35 209.77 72.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 292.35 218.74 Tm 0 Tr (allStations) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 364.95 218.74 Tm 0 Tr (, ) Tj  ET Q
-1.000 1.000 1.000 rg
-378.15 209.77 13.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 378.15 218.74 Tm 0 Tr (id) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 391.35 218.74 Tm 0 Tr (, ) Tj  ET Q
-1.000 1.000 1.000 rg
-404.55 209.77 46.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 404.55 218.74 Tm 0 Tr (command) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 450.75 218.74 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 218.74 Tm 0 Tr (    printRoutesList\(filteredTrips, allStations, id, command\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 230.08 Tm 0 Tr (282  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 230.08 Tm 0 Tr (    ) Tj  ET Q
-1.000 1.000 1.000 rg
-87.75 221.11 33.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 87.75 230.08 Tm 0 Tr (Trip ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 120.75 230.08 Tm 0 Tr (* ) Tj  ET Q
-1.000 1.000 1.000 rg
-133.95 221.11 59.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 133.95 230.08 Tm 0 Tr (allTrips ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 193.35 230.08 Tm 0 Tr (= ) Tj  ET Q
-1.000 1.000 1.000 rg
-206.55 221.11 85.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 206.55 230.08 Tm 0 Tr (readTripsData) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 292.35 230.08 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-298.95 221.11 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 298.95 230.08 Tm 0 Tr (trips_file) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 364.95 230.08 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 230.08 Tm 0 Tr (    Trip * allTrips = readTripsData\(trips_file\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 241.41 Tm 0 Tr (283  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 241.41 Tm 0 Tr (    ) Tj  ET Q
-1.000 1.000 1.000 rg
-87.75 232.44 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 87.75 241.41 Tm 0 Tr (mainMenu) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 140.55 241.41 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-147.15 232.44 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 147.15 241.41 Tm 0 Tr (allTrips) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 199.95 241.41 Tm 0 Tr (, ) Tj  ET Q
-1.000 1.000 1.000 rg
-213.15 232.44 72.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 213.15 241.41 Tm 0 Tr (allStations) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 285.75 241.41 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 241.41 Tm 0 Tr (    mainMenu\(allTrips, allStations\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 252.75 Tm 0 Tr (284  ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 61.35 252.75 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 252.75 Tm 0 Tr (}) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 264.09 Tm 0 Tr (285  ) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 275.43 Tm 0 Tr (286  ) Tj  ET Q
-q 0.627 0.627 0.627 rg BT 1 0 0 -1 61.35 275.43 Tm 0 Tr (/* statsMenu: placeholder for the stats section) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 275.43 Tm 0 Tr (/* statsMenu: placeholder for the stats section) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 286.77 Tm 0 Tr (287  ) Tj  ET Q
-q 0.627 0.627 0.627 rg BT 1 0 0 -1 67.95 286.77 Tm 0 Tr (*/) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 286.77 Tm 0 Tr ( */) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 298.11 Tm 0 Tr (288  ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 61.35 298.11 Tm 0 Tr (void ) Tj  ET Q
-BT /F1 11.00 Tf ET
-1.000 1.000 1.000 rg
-94.35 289.14 59.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 94.35 298.11 Tm 0 Tr (statsMenu) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 153.75 298.11 Tm 0 Tr (\(\) {) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 298.11 Tm 0 Tr (void statsMenu\(\) {) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 309.45 Tm 0 Tr (289  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 309.45 Tm 0 Tr (    ) Tj  ET Q
-1.000 1.000 1.000 rg
-87.75 300.48 39.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 87.75 309.45 Tm 0 Tr (printf) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 127.35 309.45 Tm 0 Tr (\() Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 133.95 309.45 Tm 0 Tr ("Sorry, the statistics are not yet implemented\\n") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 457.35 309.45 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 309.45 Tm 0 Tr (    printf\("Sorry, the statistics are not yet implemented\\n"\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 320.78 Tm 0 Tr (290  ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 61.35 320.78 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 320.78 Tm 0 Tr (}) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 332.12 Tm 0 Tr (291  ) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 343.46 Tm 0 Tr (292  ) Tj  ET Q
-q 0.627 0.627 0.627 rg BT 1 0 0 -1 61.35 343.46 Tm 0 Tr (/* clearInputBuffer: handles input of multiple characters) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 343.46 Tm 0 Tr (/* clearInputBuffer: handles input of multiple characters) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 354.80 Tm 0 Tr (293  ) Tj  ET Q
-q 0.627 0.627 0.627 rg BT 1 0 0 -1 67.95 354.80 Tm 0 Tr (* resets the input buffer to avoid double-commands) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 354.80 Tm 0 Tr ( * resets the input buffer to avoid double-commands) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 366.14 Tm 0 Tr (294  ) Tj  ET Q
-q 0.627 0.627 0.627 rg BT 1 0 0 -1 67.95 366.14 Tm 0 Tr (* Source:) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 366.14 Tm 0 Tr ( * Source:) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 377.48 Tm 0 Tr (295  ) Tj  ET Q
-q 0.627 0.627 0.627 rg BT 1 0 0 -1 67.95 377.48 Tm 0 Tr (*) Tj  ET Q
-q 0.627 0.627 0.627 rg BT 1 0 0 -1 28.35 388.82 Tm 0 Tr (stackoverflow.com/questions/3969871/using-getchar-on-c-gets-the-enter-after-input) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 377.48 Tm 0 Tr ( *) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 388.82 Tm 0 Tr (stackoverflow.com/questions/3969871/using-getchar-on-c-gets-the-enter-after-input) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 400.15 Tm 0 Tr (296  ) Tj  ET Q
-q 0.627 0.627 0.627 rg BT 1 0 0 -1 67.95 400.15 Tm 0 Tr (*/) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 400.15 Tm 0 Tr ( */) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 411.49 Tm 0 Tr (297  ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 61.35 411.49 Tm 0 Tr (void ) Tj  ET Q
-BT /F1 11.00 Tf ET
-1.000 1.000 1.000 rg
-94.35 402.52 105.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 94.35 411.49 Tm 0 Tr (clearInputBuffer) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 199.95 411.49 Tm 0 Tr (\(\) ) Tj  ET Q
-q 0.745 0.745 0.902 rg BT 1 0 0 -1 219.75 411.49 Tm 0 Tr (// works only if the input buffer is not empty) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 411.49 Tm 0 Tr (void clearInputBuffer\(\) // works only if the input buffer is not empty) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 422.83 Tm 0 Tr (298  ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 61.35 422.83 Tm 0 Tr ({) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 422.83 Tm 0 Tr ({) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 434.17 Tm 0 Tr (299  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 434.17 Tm 0 Tr (    ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 87.75 434.17 Tm 0 Tr (char ) Tj  ET Q
-BT /F1 11.00 Tf ET
-1.000 1.000 1.000 rg
-120.75 425.20 6.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 120.75 434.17 Tm 0 Tr (c) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 127.35 434.17 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 434.17 Tm 0 Tr (    char c;) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 445.51 Tm 0 Tr (300  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 445.51 Tm 0 Tr (    ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 87.75 445.51 Tm 0 Tr (do ) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 107.55 445.51 Tm 0 Tr ({) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 445.51 Tm 0 Tr (    do {) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 456.85 Tm 0 Tr (301  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 456.85 Tm 0 Tr (        ) Tj  ET Q
-1.000 1.000 1.000 rg
-114.15 447.88 13.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 114.15 456.85 Tm 0 Tr (c ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 127.35 456.85 Tm 0 Tr (= ) Tj  ET Q
-1.000 1.000 1.000 rg
-140.55 447.88 46.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 140.55 456.85 Tm 0 Tr (getchar) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 186.75 456.85 Tm 0 Tr (\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 456.85 Tm 0 Tr (        c = getchar\(\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 468.19 Tm 0 Tr (302  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 468.19 Tm 0 Tr (    ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 87.75 468.19 Tm 0 Tr (} ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 100.95 468.19 Tm 0 Tr (while ) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 140.55 468.19 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-147.15 459.22 13.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 147.15 468.19 Tm 0 Tr (c ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 468.19 Tm 0 Tr (!= ) Tj  ET Q
-q 0.878 0.627 0.000 rg BT 1 0 0 -1 180.15 468.19 Tm 0 Tr ('\\n' ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 213.15 468.19 Tm 0 Tr (&& ) Tj  ET Q
-1.000 1.000 1.000 rg
-232.95 459.22 13.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 232.95 468.19 Tm 0 Tr (c ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 246.15 468.19 Tm 0 Tr (!= ) Tj  ET Q
-1.000 1.000 1.000 rg
-265.95 459.22 19.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 265.95 468.19 Tm 0 Tr (EOF) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 285.75 468.19 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 468.19 Tm 0 Tr (    } while \(c != '\\n' && c != EOF\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 479.52 Tm 0 Tr (303  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 479.52 Tm 0 Tr (    ) Tj  ET Q
-BT /F2 11.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 87.75 479.52 Tm 0 Tr (return) Tj  ET Q
-BT /F1 11.00 Tf ET
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 127.35 479.52 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 479.52 Tm 0 Tr (    return;) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 490.86 Tm 0 Tr (304  ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 61.35 490.86 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.35 490.86 Tm 0 Tr (}) Tj  ET Q
 Q
 
 endstream
@@ -2066,7 +905,7 @@ endobj
 16 0 obj
 <<
 /Producer (þÿ w x P d f D o c u m e n t   0 . 9 . 4)
-/CreationDate (D:20170525183204)
+/CreationDate (D:20170525185506)
 >>
 endobj
 17 0 obj
@@ -2080,23 +919,23 @@ endobj
 xref
 0 18
 0000000000 65535 f 
-0000132178 00000 n 
-0000132487 00000 n 
+0000062452 00000 n 
+0000062761 00000 n 
 0000000009 00000 n 
 0000000098 00000 n 
-0000019080 00000 n 
-0000019169 00000 n 
-0000049149 00000 n 
-0000049238 00000 n 
-0000078884 00000 n 
-0000078974 00000 n 
-0000114282 00000 n 
-0000114373 00000 n 
-0000132292 00000 n 
-0000132387 00000 n 
-0000132603 00000 n 
-0000132635 00000 n 
-0000132743 00000 n 
+0000019152 00000 n 
+0000019241 00000 n 
+0000031796 00000 n 
+0000031885 00000 n 
+0000043580 00000 n 
+0000043670 00000 n 
+0000055593 00000 n 
+0000055684 00000 n 
+0000062566 00000 n 
+0000062661 00000 n 
+0000062877 00000 n 
+0000062909 00000 n 
+0000063017 00000 n 
 trailer
 <<
 /Size 18
@@ -2104,5 +943,5 @@ trailer
 /Info 16 0 R
 >>
 startxref
-132847
+63121
 %%EOF
