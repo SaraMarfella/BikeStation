@@ -1,6 +1,9 @@
+
 /*  GENERAL INFORMATION
 *
 * Project created by Sara Marfella IST188316 on May 16, 2017
+*
+* main.c
 *
 * Implemented:
 * 1. Load the data structures required to represent
