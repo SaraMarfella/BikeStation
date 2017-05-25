@@ -26,6 +26,7 @@ void listOfStationsMenu(Trip *, Station *);
 void selectDataMenu();
 void selectStationMenu(Station*, Trip*, int);
 void statsMenu();
+void clearInputBuffer();
 
 /*function main
  @param mode(-g or -t) and file (file travelers and file stations)
@@ -62,8 +63,9 @@ void mainMenu(Trip * tripsList, Station * stationsList){
     printf("  [ 3 ]   Print List of stations\n\n");
     printf("  [ 4 ]   Print List of routes\n\n");
     printf("  [ 5 ]   Print List of statistics\n\n");
-    printf("Any other key: Quit\n");
+    printf("  [ 6 ]   Quit\n\n");
     scanf("%d", &command);
+    clearInputBuffer();
     switch (command) {
         case 1:
             selectDataMenu(tripsList, stationsList);
@@ -71,6 +73,7 @@ void mainMenu(Trip * tripsList, Station * stationsList){
         case 2:
             printf("How many trips do you want to print? (0..32000, enter 0 for all)\n");
             scanf("%d", &command);
+            clearInputBuffer();
             printTripsList(tripsList, command);
             mainMenu(tripsList, stationsList);
             break;
@@ -84,7 +87,13 @@ void mainMenu(Trip * tripsList, Station * stationsList){
             statsMenu();
             mainMenu(tripsList, stationsList);
             break;
-        default: return;
+        case 6:
+            exit(EXIT_SUCCESS);
+            break;
+        default:
+            printf("Error: invalid command...\n");
+            mainMenu(tripsList, stationsList);
+            break;
     }
 }
 
@@ -105,33 +114,64 @@ void selectDataMenu(Trip * filteredTrips, Station * allStations){
     printf("  [ 2 ]   Day of week\n\n");
     printf("  [ 3 ]   Max duration of trip (in seconds)\n\n");
     printf("  [ 4 ]   New Search (reset list)\n\n");
-    printf("Any other key: Return to Main Menu\n");
+    printf("  [ 5 ]   Return to Main Menu\n\n");
     scanf("%d", &command);
+    clearInputBuffer();
     switch (command) {
         case 1:
-            printf("Insert start time of trip (hour between 0..23):\n");
-            scanf("%d", &filter_hour_start);
-            printf("Insert end time of trip (hour between 0..23):\n");
-            scanf("%d", &filter_hour_end);
-            filteredTrips = selectTripsByTime(filteredTrips, filter_hour_start, filter_hour_end);
+            command = -1;
+            
+            while ((command < 0) || (command > 23)) {
+                printf("Insert start time of trip (hour between 0..23):\n");
+                scanf("%d", &command);
+                clearInputBuffer();
+            }
+            // temporary place to store start time cannot overwrite the global now
+            // because we use it to understand if user has used the filter before, later in the code
+            int start = command;
+            
+            command = -1;
+            while ((command < 0) || (command > 23)) {
+                printf("Insert end time of trip (hour between 0..23):\n");
+                scanf("%d", &command);
+                clearInputBuffer();
+            }
+            filter_hour_end = command;
+            
+            // if user had filtered the list before, reset the list to avoid problems
+            if (filter_hour_start != -1) {
+                // now we can save the start time
+                filter_hour_start = start;
+                Trip * allTrips = readTripsData(trips_file);
+                printf("Note: a time filter was already applied.\nThe trip list was reset to use the new parameters.\n");
+                filteredTrips = selectTripsByTime(allTrips, filter_hour_start, filter_hour_end);
+            } else {
+                filter_hour_start = start;
+                filteredTrips = selectTripsByTime(filteredTrips, filter_hour_start, filter_hour_end);
+            }
             mainMenu(filteredTrips, allStations);
             break;
         case 2:
-            printf("Insert the day of trip:\n\n");
-            printf("  [ 1 ]   Monday\n");
-            printf("  [ 2 ]   Tuesday\n");
-            printf("  [ 3 ]   Wednesday\n");
-            printf("  [ 4 ]   Thursday\n");
-            printf("  [ 5 ]   Friday\n");
-            printf("  [ 6 ]   Saturday\n");
-            printf("  [ 7 ]   Sunday\n");
-            scanf("%d", &command);
+            command = 0;
+            while ((command < 1) || (command > 7)) {
+                printf("\nPlease insert the day of trip:\n\n");
+                printf("  [ 1 ]   Monday\n");
+                printf("  [ 2 ]   Tuesday\n");
+                printf("  [ 3 ]   Wednesday\n");
+                printf("  [ 4 ]   Thursday\n");
+                printf("  [ 5 ]   Friday\n");
+                printf("  [ 6 ]   Saturday\n");
+                printf("  [ 7 ]   Sunday\n");
+                scanf("%d", &command);
+                clearInputBuffer();
+            }
             filteredTrips = selectTripsByDay(filteredTrips, command);
             mainMenu(filteredTrips, allStations);
             break;
         case 3:
             printf("Insert the max duration of trip (in seconds):\n");
             scanf("%d", &duration);
+            clearInputBuffer();
             filteredTrips = selectTripsByDuration(filteredTrips, duration);
             mainMenu(filteredTrips, allStations);
             break;
@@ -141,11 +181,19 @@ void selectDataMenu(Trip * filteredTrips, Station * allStations){
             Trip * allTrips = readTripsData(trips_file);
             mainMenu(allTrips, allStations);
             break;
-        default:
+        case 5:
             if (filteredTrips != NULL) mainMenu(filteredTrips, allStations);
             else {
                 Trip * allTrips = readTripsData(trips_file);
                 mainMenu(allTrips, allStations);
+            }
+            break;
+        default:
+            printf("Error: invalid command...\n");
+            if (filteredTrips != NULL) selectDataMenu(filteredTrips, allStations);
+            else {
+                Trip * allTrips = readTripsData(trips_file);
+                selectDataMenu(allTrips, allStations);
             }
             break;
     }
@@ -155,9 +203,11 @@ void selectStationMenu(Station * allStations, Trip * filteredTrips, int id) {
     int command;
     printf("Insert the id of the station:\n");
     scanf("%d", &id);
+    clearInputBuffer();
     filteredTrips = selectTripsByIdStation(filteredTrips, id);
     printf("How many routes do yo want to print? (0 for all)\n");
     scanf("%d", &command);
+    clearInputBuffer();
     printRoutesList(filteredTrips, allStations, id, command);
     Trip * allTrips = readTripsData(trips_file);
     mainMenu(allTrips, allStations);
@@ -165,4 +215,14 @@ void selectStationMenu(Station * allStations, Trip * filteredTrips, int id) {
 
 void statsMenu() {
     printf("Sorry, the statistics are not yet implemented\n");
+}
+
+// Source: https://stackoverflow.com/questions/3969871/using-getchar-on-c-gets-the-enter-after-input
+void clearInputBuffer() // works only if the input buffer is not empty
+{
+    char c;
+    do {
+        c = getchar();
+    } while (c != '\n' && c != EOF);
+    return;
 }
