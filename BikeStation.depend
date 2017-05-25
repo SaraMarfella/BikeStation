@@ -6,3 +6,33 @@
 	<stdbool.h>
 	<string.h>
 
+1495717049 source:/Users/mauro/GitHub/BikeStation/dataManager.c
+	"dataManager.h"
+
+1495715290 /Users/mauro/GitHub/BikeStation/dataManager.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<stdbool.h>
+	<string.h>
+
+1495718034 source:/Users/mauro/GitHub/BikeStation/main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<stdbool.h>
+	<string.h>
+	"dataManager.h"
+	"print.h"
+
+1495714829 /Users/mauro/GitHub/BikeStation/print.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<stdbool.h>
+	<string.h>
+	"dataManager.h"
+
+1495717872 source:/Users/mauro/GitHub/BikeStation/print.c
+	"print.h"
+
