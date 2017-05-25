@@ -59,7 +59,7 @@ int main (int argc, char *argv[]){
         return 0;
     }
     if (strcmp(argv[1], "-t") != 0) {
-        printf("Sorry - only text mode is available,
+        printf("Sorry - only text mode is available,");
         printf("Please start with -t\n");
         return 0;
     }
@@ -100,7 +100,7 @@ void mainMenu(Trip * tripsList, Station * stationsList){
         case 2:
             command = -1;
             while ((command < 0) || (command > 32000)) {
-                 printf("How many trips do you want to print?
+                 printf("How many trips do you want to print?");
                  printf("0..32000, enter 0 for all)\n");
                  scanf("%d", &command);
                  clearInputBuffer();
@@ -191,7 +191,7 @@ void selectDataMenu(Trip * filteredTrips, Station * allStations){
                 // now we can save the start time
                 filter_hour_start = start;
                 Trip * allTrips = readTripsData(trips_file);
-                printf("Note: a time filter was already applied.\n
+                printf("Note: a time filter was already applied.\n");
                 printf("The trip list was reset to use the new param.\n");
                 filteredTrips = selectTripsByTime(allTrips,
                                 filter_hour_start, filter_hour_end);
