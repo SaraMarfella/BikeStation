@@ -34,7 +34,13 @@ Station * readStationData(char *filename){
                         case 3:  strcpy(station->municipal, token);     break;
                         case 4:  station->latitude = atof(token);       break;
                         case 5:  station->longitude = atof(token);      break;
-                        case 6:  station->status = atoi(token);         break;
+                        case 6:
+                            if (strcmp(token, "Existing") == 0) {
+                                station->status = EXISTING;
+                            } else {
+                                station->status = REMOVED;
+                            }
+                            break;
                         default: break;
                     }
                     // printf ("%s\n",token);
